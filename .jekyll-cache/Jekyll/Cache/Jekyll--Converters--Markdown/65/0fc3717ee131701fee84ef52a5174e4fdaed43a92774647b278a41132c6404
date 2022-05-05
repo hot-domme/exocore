@@ -1,0 +1,34 @@
+I"�<h2 id="sidenotes">Sidenotes</h2>
+
+<h3 id="considerations">Considerations:</h3>
+<ul>
+  <li>Pure CSS/HTML?</li>
+  <li>Window size change?</li>
+  <li>Speed/bugginess?</li>
+  <li>Handling of long/frequent Sidenotes?</li>
+  <li>Option to make only footnote/only sidenote/both?</li>
+  <li>Ease of access in markdown</li>
+</ul>
+
+<h3 id="options">Options:</h3>
+
+<ul>
+  <li><a href="https://www.gwern.net/Sidenotes#sidebar-tables">Sidenotes In Web Design · Gwern.net</a></li>
+  <li>
+    <p><a href="https://www.gwern.net/Sidenotes#tufte-css">Tufte solution</a> (Pure CSS/HTML)</p>
+
+    <p>Tufte’s sidenotes are too difficult to access in markdown. This is the syntax required to produce a sidenote/margin note:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">&lt;label for="mn-demo" class="margin-toggle"&gt;&amp;#8853;&lt;/label&gt;
+&lt;input type="checkbox" id="mn-demo" class="margin-toggle"/&gt;
+&lt;span class="marginnote"&gt;
+This is a margin note.
+&lt;/span&gt;</code></p>
+
+    <p>this could be made easier using an include, but the syntax would still be far more cumbersome than a classic markdown footnote.</p>
+  </li>
+  <li><a href="https://www.gwern.net/Sidenotes#sidenotes-js">Sidenotes In Web Design · Gwern.net</a></li>
+  <li><a href="https://www.gwern.net/Sidenotes#matthew-butterick">Sidenotes In Web Design · Gwern.net</a></li>
+  <li><a href="https://www.gwern.net/Sidenotes#sidenotes-js">Sidenotes In Web Design · Gwern.net</a></li>
+</ul>
+:ET
