@@ -1,7 +1,7 @@
 title: Exocore
 
 source: .
-url: https://james-liao.net/
+url: 'https://james-liao.net/'
 baseurl: ''
 destination: ./_site
 exclude: ['other/_includes/notes_graph.json']
