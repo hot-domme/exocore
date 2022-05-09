@@ -1,7 +1,7 @@
 title: Exocore
 
 source: .
-url: https://compassionate-neumann-f910fd.netlify.app/
+url: https://james-liao.net/
 baseurl: ''
 destination: ./_site
 exclude: ['other/_includes/notes_graph.json']
@@ -98,6 +98,6 @@ plugins:
 #- jekyll-feed
 - jekyll/tagging
 - jekyll-wikilinks
-#- jekyll-graph
+- jekyll-graph
 - ruby-graphviz
 

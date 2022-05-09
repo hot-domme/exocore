@@ -2,7 +2,7 @@
   "api_url": "https://api.github.com",
   "archived": null,
   "baseurl": "/pages/hot-domme/james-liao",
-  "build_revision": "296eece2578239d6f3e336cef8bcb9993b084273",
+  "build_revision": "ebbdadebb32186186fd16872cd16e5f7f84ed8ce",
   "clone_url": "https://github.com/hot-domme/james-liao.git",
   "contributors": false,
   "disabled": null,
@@ -67,4 +67,4 @@
   },
   "wiki_url": null,
   "zip_url": "https://github.com/hot-domme/james-liao/zipball/gh-pages"
-}, "description"=>#<Jekyll::GitHubMetadata::Value:0x00000001084f20a0 @key="description", @value=#<Proc:0x00000001084f20f0 /Users/tos/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/jekyll-github-metadata-2.13.0/lib/jekyll-github-metadata/site_github_munger.rb:60>>}:ET
+}, "description"=>#<Jekyll::GitHubMetadata::Value:0x000000010a6d7760 @key="description", @value=#<Proc:0x000000010a6d77b0 /Users/tos/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/jekyll-github-metadata-2.13.0/lib/jekyll-github-metadata/site_github_munger.rb:60>>}:ET
