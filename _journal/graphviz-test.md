@@ -14,6 +14,7 @@ tags:
 
 # A Demonstration of syntax for the use of the Graphviz parser plugin
 
+
 {% graphviz %}
 graph {
     bgcolor="black"

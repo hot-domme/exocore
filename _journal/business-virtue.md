@@ -6,6 +6,7 @@ date: 2022-1-22
 tags: virtue business friendship
 ---
 # The American Samurai
+
 It is said that business poisons friendships, but it's not true— Business relationships are an ideal form of friendship, and a corporate entity can form the most cohesive and highly-evolved group dynamics possible. Ongoing, mutually productive business dealings demand personal virtue more than a typical friendship.
 
 Business is a zone of consequence, accountability, and competition; in such an environment virtues are blast-tested constantly. When money enters a friendship and things go sour, the true machinery at play is that scarcities of virtue are revealed. Greed poisons friendships, as does untrustworthiness or envy— it is only the introduction of money which has made these qualities material.

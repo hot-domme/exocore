@@ -1,6 +1,6 @@
 ---
-layout: daily
-category: daily
+layout: journal
+category: journal
 date: 2022-04-22
 tags: meta exocore computers todo
 ---
@@ -50,7 +50,7 @@ tags: meta exocore computers todo
 
 ---
 
-## Other Ideas / To-do
+## Other Features
 - 'ID' YAML metadata tag for Wiki notes, to allow provision of both a title and an ID, rather than the ID being the title. Allows for independent manipulation of ID, and mnemonic titles. [Some info on identifiers in ZK](https://zettelkasten.de/posts/add-identity/)
 - Addition of VSCode tags for identifiers to insert into template notes
 - Citation management doubling as PDF storage/database [Manage Citations for a Zettelkasten • Zettelkasten Method](https://zettelkasten.de/posts/bibliography-zettelkasten/)
@@ -66,14 +66,32 @@ tags: meta exocore computers todo
 - Github Actions daily push
 - Build ~3 more themes 
 - Use DOCKER
+  - [Compile a Jekyll project without installing Jekyll or Ruby by using Docker](https://dev.to/michael/compile-a-jekyll-project-without-installing-jekyll-or-ruby-by-using-docker-4184)
+  - [Docker Desktop for Mac user manual](https://docs.docker.com/desktop/mac/)
+  - [Building and Deploying Jekyll Sites using Docker - Part Two | martinpeck.com](https://martinpeck.com/jekyll/blog/containers/2019/02/03/build-and-deploy-jekyll-with-docker-part2/)
+- Clean up HEAD
+- Github Actions: Push at a particular time — once a day 
+  - [Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
 
 
-### tab freeze:
-
-* [annual franchise tax seychelles - Google Search](https://www.google.com/search?q=annual+franchise+tax+seychelles&oq=annual+franchise+tax+seychelles&aqs=chrome..69i57j33i160.4728j0j7&sourceid=chrome&ie=UTF-8)
-* [country-detail-2021-SC.pdf](https://cthi.taxjustice.net/cthi2021/country-detail-2021-SC.pdf)
-* [scr - Google Search](https://www.google.com/search?q=scr&oq=scr&aqs=chrome..69i57j35i39j0i67i433j69i60l3j69i61j69i60.609j0j7&
-* [Franchise Tax Definition](https://www.investopedia.com/terms/f/franchise_tax.asp#:~:text=Franchise%20taxes%20do%20not%20replace,tax%20rules%20within%20each%20state.)
-* [annual franchise tax seychelles - Google Search](https://www.google.com/search?q=annual+franchise+tax+seychelles&oq=annual+franchise+tax+seychelles&aqs=chrome..69i57j33i160.4728j0j7&sourceid=chrome&ie=UTF-8)
-* [country-detail-2021-SC.pdf](https://cthi.taxjustice.net/cthi2021/country-detail-2021-SC.pdf)
-* [scr - Google Search](https://www.google.com/search?q=scr&oq=scr&aqs=chrome..69i57j35i39j0i67i433j69i60l3j69i61j69i60.609j0j7&sourceid=chrome&ie=UTF-8)
+# TODO 
+- Docker 
+  - Learn how it works 
+  - Can a docker image be altered later? or must the image be taken after all relevant changes have been made?
+  - Craft a Docker image for the exocore
+- Make graph work again
+- Github actions setup
+- Pinned note functionality
+- ~3 more themes
+- Clean up HEAD
+- Make all images link to self
+- Clean gemfile of unused plugins
+- Complete onboarding guide 
+- Decide on best online CMS
+  - Prose.io?
+  - Jekyll CMS?
+  - Other? See above
+- Recipes section
+- Books section
+-  Writeups of every feature
+-  Convert Exocore to purely instructional 

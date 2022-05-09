@@ -791,12 +791,13 @@ font-weight: normal;
     max-height: 2.5em;
     text-align: center;
     background: white;
+    line-height: 1.5em;
 
     &:hover {
     background: brown;
         color: white; }
-
 }
+
 
 .next {
     float: right;
@@ -808,6 +809,7 @@ font-weight: normal;
     max-height: 2.5em;
     text-align: center;
     background: white;
+    line-height: 1.5em;
     
     &:hover {
     background: brown;

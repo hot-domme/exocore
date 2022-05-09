@@ -82,26 +82,6 @@ graphviz:
   command: "dot"   # execute this string. specify full path to 'dot' if you need
 
 
-graph:
-  enabled: true
-  exclude: []
-  path:
-    assets: "/assets"
-    scripts: "/assets/js"
-  net_web:
-    enabled: true
-    exclude:
-      attrs: false
-      links: false
-    force:
-      charge: -300
-      strength_x: 0.3
-      x_val: 0.75
-      strength_y: 0.1
-      y_val: 0.9
-  tree:
-    enabled: false
-
 plugins:
 - jekyll-optional-front-matter
 - jekyll-readme-index
@@ -118,6 +98,6 @@ plugins:
 #- jekyll-feed
 - jekyll/tagging
 - jekyll-wikilinks
-- jekyll-graph
+#- jekyll-graph
 - ruby-graphviz
 

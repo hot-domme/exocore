@@ -1,4 +1,4 @@
-I"î<h1 id="features-to-consider-for-the-exocore-and-resources-on-them">Features to consider for the exocore, and resources on them</h1>
+I"á<h1 id="features-to-consider-for-the-exocore-and-resources-on-them">Features to consider for the exocore, and resources on them</h1>
 
 <h2 id="plugin-lists">Plugin Lists</h2>
 <ul>
@@ -54,7 +54,7 @@
 
 <hr />
 
-<h2 id="other-ideas--to-do">Other Ideas / To-do</h2>
+<h2 id="other-features">Other Features</h2>
 <ul>
   <li>â€˜IDâ€™ YAML metadata tag for Wiki notes, to allow provision of both a title and an ID, rather than the ID being the title. Allows for independent manipulation of ID, and mnemonic titles. <a href="https://zettelkasten.de/posts/add-identity/">Some info on identifiers in ZK</a></li>
   <li>Addition of VSCode tags for identifiers to insert into template notes</li>
@@ -73,17 +73,57 @@
   </li>
   <li>Github Actions daily push</li>
   <li>Build ~3 more themes</li>
+  <li>Use DOCKER
+    <ul>
+      <li><a href="https://dev.to/michael/compile-a-jekyll-project-without-installing-jekyll-or-ruby-by-using-docker-4184">Compile a Jekyll project without installing Jekyll or Ruby by using Docker</a></li>
+      <li><a href="https://docs.docker.com/desktop/mac/">Docker Desktop for Mac user manual</a></li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[Building and Deploying Jekyll Sites using Docker - Part Two</td>
+              <td>martinpeck.com](https://martinpeck.com/jekyll/blog/containers/2019/02/03/build-and-deploy-jekyll-with-docker-part2/)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li>Clean up HEAD</li>
+  <li>Github Actions: Push at a particular time â€” once a day
+    <ul>
+      <li><a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows">Events that trigger workflows - GitHub Docs</a></li>
+    </ul>
+  </li>
 </ul>
 
-<h3 id="tab-freeze">tab freeze:</h3>
-
+<h1 id="todo">TODO</h1>
 <ul>
-  <li><a href="https://www.google.com/search?q=annual+franchise+tax+seychelles&amp;oq=annual+franchise+tax+seychelles&amp;aqs=chrome..69i57j33i160.4728j0j7&amp;sourceid=chrome&amp;ie=UTF-8">annual franchise tax seychelles - Google Search</a></li>
-  <li><a href="https://cthi.taxjustice.net/cthi2021/country-detail-2021-SC.pdf">country-detail-2021-SC.pdf</a></li>
-  <li>[scr - Google Search](https://www.google.com/search?q=scr&amp;oq=scr&amp;aqs=chrome..69i57j35i39j0i67i433j69i60l3j69i61j69i60.609j0j7&amp;</li>
-  <li><a href="https://www.investopedia.com/terms/f/franchise_tax.asp#:~:text=Franchise%20taxes%20do%20not%20replace,tax%20rules%20within%20each%20state.">Franchise Tax Definition</a></li>
-  <li><a href="https://www.google.com/search?q=annual+franchise+tax+seychelles&amp;oq=annual+franchise+tax+seychelles&amp;aqs=chrome..69i57j33i160.4728j0j7&amp;sourceid=chrome&amp;ie=UTF-8">annual franchise tax seychelles - Google Search</a></li>
-  <li><a href="https://cthi.taxjustice.net/cthi2021/country-detail-2021-SC.pdf">country-detail-2021-SC.pdf</a></li>
-  <li><a href="https://www.google.com/search?q=scr&amp;oq=scr&amp;aqs=chrome..69i57j35i39j0i67i433j69i60l3j69i61j69i60.609j0j7&amp;sourceid=chrome&amp;ie=UTF-8">scr - Google Search</a></li>
+  <li>Docker
+    <ul>
+      <li>Learn how it works</li>
+      <li>Can a docker image be altered later? or must the image be taken after all relevant changes have been made?</li>
+      <li>Craft a Docker image for the exocore</li>
+    </ul>
+  </li>
+  <li>Make graph work again</li>
+  <li>Github actions setup</li>
+  <li>Pinned note functionality</li>
+  <li>~3 more themes</li>
+  <li>Clean up HEAD</li>
+  <li>Make all images link to self</li>
+  <li>Clean gemfile of unused plugins</li>
+  <li>Complete onboarding guide</li>
+  <li>Decide on best online CMS
+    <ul>
+      <li>Prose.io?</li>
+      <li>Jekyll CMS?</li>
+      <li>Other? See above</li>
+    </ul>
+  </li>
+  <li>Recipes section</li>
+  <li>Books section</li>
+  <li>Writeups of every feature</li>
+  <li>Convert Exocore to purely instructional</li>
 </ul>
 :ET
