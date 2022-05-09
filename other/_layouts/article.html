@@ -30,7 +30,24 @@ layout: default
          {% include toc.html html=content sanitize=true ordered=true class="inline_toc" id="my_toc" h_min=1 h_max=4 %}
         </div>
         <hr>
+        <p>
+        ID: {{ page.id }}
+        <br>
+        PATH: {{ page.path }}
+        <br>
+        LABEL: {{ page.label }}
+        <br>
+        SOURCE: {{ current_note.source }}
+        <br>
+        TARGET: {{ current_note.target }}
+        <br>
+        URL: {{ page.url }}
+        <br>
+        OTHER: {{ current_note.data.title }}
 
+
+
+      </p>
       <div class="notes-entry-container note">
         <div class="content post-content">
 

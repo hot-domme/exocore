@@ -7,16 +7,20 @@
   integrity="sha512-FHsFVKQ/T1KWJDGSbrUhTJyS1ph3eRrxI228ND0EGaEp6v4a/vGwPWd3Dtd/+9cI7ccofZvl/wulICEurHN1pg=="
   crossorigin="anonymous"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"
+  integrity="sha512-FHsFVKQ/T1KWJDGSbrUhTJyS1ph3eRrxI228ND0EGaEp6v4a/vGwPWd3Dtd/+9cI7ccofZvl/wulICEurHN1pg=="
+  crossorigin="anonymous"></script>
+
 <div id="graph-wrapper">
   <script>
-    const MINIMAL_NODE_SIZE = 7;
-    const MAX_NODE_SIZE = 12;
+    const MINIMAL_NODE_SIZE = 4;
+    const MAX_NODE_SIZE = 8;
     const ACTIVE_RADIUS_FACTOR = 1.5;
     const STROKE = 1;
-    const FONT_SIZE = 15;
-    const TICKS = 150;
-    const FONT_BASELINE = 40;
-    const MAX_LABEL_LENGTH = 50;
+    const FONT_SIZE = 12;
+    const TICKS = 100;
+    const FONT_BASELINE = 25;
+    const MAX_LABEL_LENGTH = 60;
 
     const graphData = {% include notes_graph.json %}
     let nodesData = graphData.nodes;
@@ -29,7 +33,7 @@
         let weight =
           3 *
           Math.sqrt(
-            linksData.filter((l) => l.source.id === el.id || l.target.id === el.id)
+            linksData.filter((l) => l.source === el.id || l.target === el.id)
               .length + 1
           );
         if (weight < MINIMAL_NODE_SIZE) {
@@ -120,7 +124,7 @@
       }
 
       for (const edge of next) {
-        if (!set.has(`${edge.source.id}-${edge.target.id}`)) {
+        if (!set.has(`${edge.source}-${edge.target}`)) {
           return false;
         }
       }
@@ -131,7 +135,7 @@
     const graphWrapper = document.getElementById('graph-wrapper')
     const element = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     element.setAttribute("width", graphWrapper.getBoundingClientRect().width);
-    element.setAttribute("height", window.innerHeight * 0.5);
+    element.setAttribute("height", window.innerHeight * 0.8);
     graphWrapper.appendChild(element);
 
     const reportWindowSize = () => {
