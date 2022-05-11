@@ -4,30 +4,31 @@
 
 /* --- Body Colors --- */
 
-$background: #f0e0d6;
+$background: transparent;
 $color-border: none;
-$color-inner-divs: #fffbf0;
+$color-inner-divs: #fef7f0;
 $color-items: antiquewhite;
 
 
 /* --- Text Colors --- */
-$color-text: #800000;
-$color-subtext: black;
-$color-code: #707070;
+$color-text: #b04d00;
+$color-subtext: #b04d00;
+$color-code: white;
+$color-code-highlight: #d0b995;
 $internal-links: blue;
-$external-links: #34345c;
+$external-links: #cc1105;
 $invalid-links: $internal-links;
-$color-primary: #cc1105;
-$color-secondary: #117743;
-$color-box-shadow: #d9bfb7;
+$color-primary: #b04d00;
+$color-secondary: #b04d00;
+$color-box-shadow: transparent;
 
 
 /* --- Borders --- */
-$article-border: medium outset;
+$article-border: none;
 $sidebar-border: medium outset;
-$prev-next-border: medium outset;
-$color-item-border: none;
-$border-radius: 0px;
+$prev-next-border: none;
+$color-item-border: medium double #d0a495;
+$border-radius: 5px;
 
 /* --- Embeds, Sidenote and Footnote Colors --- */
 $embed-border: thin solid black;
@@ -35,7 +36,7 @@ $color-embed-background: $color-inner-divs;
 $color-embed-title: black;
 $color-embed-text: black;
 
-$footnote-border: thin solid black;
+$footnote-border: medium outset;
 $color-footnote-background: $color-inner-divs;
 $color-footnote-text: black;
 
@@ -59,15 +60,14 @@ $font-family-monospace: ”Iosevka Term SS03”,”IBM Plex Mono”,”Fira Code
 article {
   background-color: $background;    
   box-shadow: 1px 1px 0px $color-box-shadow;
+    padding-top: 1.5em;
   
 }
 
 body {
-  background-color: black;
-  background-image: url("/assets/images/yotsuba-bg.gif");
+  background-image: url("/assets/images/bg-vellum.jpg");
   background-repeat: repeat;
   box-sizing: content-box;
-  font-family: $font-family-sans-serif;
   margin: 0 auto;
   line-height: 1.1em;
   padding: 2rem;
@@ -77,12 +77,12 @@ body {
 }
 
 body {
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-serif;
   padding: 4vh 6vw;
   overflow-x: hidden;
   color: $color-text;
   font-size: 1rem;
-  background-color:$background;
+  background-color:beige;
 }
 
 
@@ -117,27 +117,37 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.4;
   padding-bottom: 0;
   font-size:1.15em;
-  margin:1em;
+  margin: 1em;
   margin-left:1em;
   text-align:left
 }
 
-.title-text { color:#cc1105; font-weight:bold; font-size:1.2em; line-height:1em; margin:0em; text-align:center; padding:1em; padding-bottom:0.5em; text-decoration:none !important;}
+.title-text { color:#cc1105; font-weight:bold; font-size: 2em; line-height:1em; margin:0em; text-align:center; padding-bottom:0.5em; text-decoration:underline; font-variant: small-caps}
 
-h1 {color:#117743; font-weight:bold; text-decoration:underline;}
-h2 {color:#117743; font-weight:bold;}
-h3 {color:#117743; font-weight:normal; text-decoration:underline}
+.post-content{
+
+h1 {color:$color-primary; font-weight:bold; text-decoration:underline; text-align: center; font-size: 1.5em}
+h2 {color:$color-secondary; font-weight:bold; text-align: center; font-size: 1.3em}
+h3 {color:$color-secondary; font-weight:bold;}
 h4 {text-transform:none;font-weight:strong; font-size:1em;}
 h5 {text-transform:none;font-weight:normal; text-decoration:underline; tfont-size:1em;}
-
+}
 code {
-  color: $color-code;
-  font-family: $font-family-monospace;
-  font-size: 1em;
+    color: $color-code;
+    font-family: $font-family-monospace;
+    font-size: 1em;
+    background-color: $color-code-highlight;
+
+    
 }
 
 PRE {
   margin-left: 1em;
+}
+
+.highlight {
+    margin: 1em;
+    background-color: $color-code-highlight;
 }
 
 *:focus {
@@ -256,11 +266,10 @@ nav {
 /* -- Interlinks -- */
 
 .backlink-box {
-  background-color: $color-inner-divs;
-  border: $color-border;
-      box-shadow: 1px 1px 0px $color-box-shadow;
-  padding:1em;
-  line-height:1em;
+    border: $color-border;
+    box-shadow: 1px 1px 0px $color-box-shadow;
+    padding:1em;
+    line-height:1em;
 }
 
 
@@ -276,13 +285,7 @@ nav {
   padding:1em; padding-top:0em; 
   background-color: $background;
 }
-.content {
-  margin-left:2em; 
-  margin-right:1em; 
-  line-height: 1.1em;
-  padding-top:0.5em;
 
-}
 .content p {
   margin-left:1em;
 }
@@ -291,14 +294,15 @@ nav {
 /* Table of Contents */
 .toc-container{
     padding:1em;
-  border: $color-border; 
+  border: medium outset; 
     box-shadow: 1px 1px 0px $color-box-shadow;
-  background-color: $color-inner-divs;
+    background-image: url("/assets/images/bg-vellum.jpg");
   margin: 1em;
   margin-top:2em;
   margin: 0 auto;
   display: block;
   max-width: 50%;
+    border-radius: $border-radius;
     @media (max-width: 700px) {
   max-width:100%;
   }
@@ -328,14 +332,33 @@ nav {
 /* STRUCTURE
 ================================================== */
 
-.sidebar-card, .index-card, .archive-cardi {
+ .archive-card {
     margin-bottom: 1em;
     float: left;
     clear: both;
-    background-color: $background;
     padding: 0.5em 1em;
     box-sizing: border-box;
     width: 100%;
+}
+     
+     .index-card {
+    margin-bottom: 1em;
+    float: left;
+    clear: both;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.sidebar-card {
+    background-image: url("/assets/images/bg-article-vellum.jpg");
+    margin-bottom: 1em;
+    float: left;
+    clear: both;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: $border-radius;
 }
 
 .container-lg {
@@ -356,6 +379,9 @@ nav {
     float: left;
     width: 60%;
     margin: 0.5em;
+        border: medium outset;
+    background-image: url("/assets/images/bg-article-vellum.jpg");
+    border-radius: $border-radius;
     
 @media (max-width: 900px)
      {width: 100%;
@@ -374,6 +400,12 @@ margin: auto;
 article {
     background-color: $background;    
     box-shadow: 1px 1px 0px $color-box-shadow;
+}
+article hr {
+  margin:1.5em;
+  margin-bottom:1em;
+ background-color: transparent;
+    border-color: transparent;
 }
 
 
@@ -467,8 +499,8 @@ article {
     width: 400px;
     margin: auto;
     padding: 25px; 
-    background-color: $background;
-    border: $article-border;
+    background-image: url(/assets/images/bg-article-vellum.jpg);
+    border: medium outset;
 }
 
 .container-sml {
@@ -498,9 +530,15 @@ article {
 ================================================== */
 .post-content {
     line-height: 1.5em;
-      margin-left:2em; 
-  margin-right:1em; 
-  padding-top:0.5em;
+    margin-left:1.5em; 
+    margin-right:1.5em; 
+    padding: 1em;
+    background: $color-inner-divs;
+    margin-top: 2em;
+    border: $color-item-border;
+//    box-shadow: 0px 0px 10px 10px $color-inner-divs;
+
+
 }
 
 .post-content img {
@@ -522,14 +560,14 @@ article {
 }
 
 .notes-entry-container {
-  border: $color-item-border;
-  padding:1em; padding-top:0em; 
+  padding:1em; padding-top:0em;
+
 }
 
 // image captions
 img+em {
     display: block;
-    color: $internal-links;
+    color: $color-text;
     text-align: center;
     width: 50%;
     margin-left: auto;
@@ -538,14 +576,22 @@ img+em {
     margin-top: -1.5em;
 }
 
+.subtitle-text {
+    width: 100%;
+    text-align: center !important;
+    margin: 0.5em auto;
+}
+
 /* BACKLINKS
 ================================================== */
 
 .backlinks-container {
     max-width:28em; margin: 0 auto;
-    background-color: $color-inner-divs;
+    background-image: url(/assets/images/bg-vellum.jpg);
+    border: medium outset;
     padding: 1em;
     margin: 1em auto;
+    border-radius: $border-radius;
     
 }
 
@@ -557,7 +603,7 @@ img+em {
     padding:1em;
     margin-bottom: 0.5em;
     line-height:1em;
-    background-color: $color-items;
+    background-color: $color-inner-divs;
     border: 1px solid $color-primary;
     border-radius: $border-radius;
     line-height:1em;
@@ -568,19 +614,15 @@ img+em {
 ================================================== */
 
 .embed-wrapper {
-    border: $embed-border;
+    border: medium outset;
     padding: 1em;
-    background-color: $color-embed-background;
-    margin-top: 2em ;
-    margin-bottom: 2em ;
+    background-image: url(/assets/images/bg-vellum.jpg);
+    margin: 2em 1.5em;
+    border-radius: $border-radius;
 }
 
 .embed-title {
-    font-size: 1.5em;
-    text-decoration: underline;
-    margin-bottom: 1em;
-    text-align: center;
-    color: $color-embed-title;
+    display: none;
 }
 
 .embed-content {
@@ -641,8 +683,11 @@ img+em {
 .footnotes {
     border: $footnote-border;
     padding: 1em 0;
-    background-color: $color-footnote-background;
     color: $color-footnote-text;
+    margin: 2em 1em;
+    background-image: url(/assets/images/bg-vellum.jpg);
+    border-radius: $border-radius;
+
 }
 
 
@@ -726,9 +771,9 @@ font-weight: normal;
 }
 
 .archive-card {
-    background-color: $color-inner-divs;
     width: 100%;
     margin: auto;
+    border: medium outset;
 }
 
 
@@ -744,7 +789,10 @@ font-weight: normal;
 .post-date {
     padding-top: 0.5em;
     margin-left: 0.5em;
-    margin-bottom: -0.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
 
 }
 
@@ -793,11 +841,13 @@ font-weight: normal;
 
 .tile, .home-link-button {
    background-color: $color-inner-divs;    
-    border: thin solid $color-text;
+    border: medium outset;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-image: url(/assets/images/bg-vellum.jpg);
+    border-radius: $border-radius;
     &:hover {
     background-color: $color-items;}
 }
@@ -814,37 +864,30 @@ font-weight: normal;
 
 .prev-next {
     margin-bottom: 0.5em;
-    background-color: $background;
-//    display: grid;
-//    grid-template-columns: 10% 40% 40% 10%;
     width: 100%;
     padding: 1em;
     height: 3.5em;
-    border-bottom: $prev-next-border;
 }
 
 .prev-next a {
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
+    color: $color-primary;
+    background-image: url("/assets/images/bg-vellum.jpg");
+    border-radius: $border-radius;
+    border: medium outset lightgrey;
+    padding: 0.8em;
+
 }
 .prev {
     float: left;
+
 }
 
 .next {
     float: right;
-}
 
-.title-text {
-    font-size: 1.5em;
 }
-
-.subtitle-text {
-    width: 100%;
-    text-align: center !important;
-    margin: 0.5em auto;
-}
-
 
 
 /* COLOR BADGES (ZETTELKASTEN HEX)
@@ -867,8 +910,8 @@ font-weight: normal;
     clear: both;
     margin-top: 1em;
     display: block;
-    background: $background;
-    border: $article-border;
+//    border: medium outset;
+    border-radius: $border-radius;
     padding: 2em;
     height: 45em;
     
@@ -913,6 +956,7 @@ font-weight: normal;
   #graph-wrapper svg {
       background: $color-inner-divs;
       height: 40em;
+      border: $color-item-border;
   }
 
 
@@ -949,20 +993,27 @@ table, tr, td {
 ================================================== */
 
 // Border around your posts
- article, .index-card {
-    border: $article-border;
+ article {
+    box-sizing: border-box;
+}
+
+.index-card {
     box-sizing: border-box;
 }
 
 // Border around the items in the sidebar
-.sidebar-card, .border {
+.sidebar-card,
+{
     border: $sidebar-border;
     box-sizing: border-box;
 }
 
+
+.border {
+}
+
 // Border around the next/previous buttons above and below your posts
 .prev-next, {
-    border: $prev-next-border; 
     box-sizing: border-box;
 
 }
@@ -992,20 +1043,24 @@ table, tr, td {
 
 .right-aside {
     float: right;
-    border: $embed-border;
-    padding: 1.2em;
-    width: 40%;
-    margin-left: 2em;
+    border: medium outset;
+    padding: 1em;
+    width: 45%;
+    margin-left: 1em;
     font-size: 0.9em;
+    background-image: url(/assets/images/bg-vellum.jpg);
+    border-radius: $border-radius;
 }
 
 .left-aside {
     float: left;
-    border: $embed-border;
+    border: medium outset;
     padding: 1.2em;
-    width: 40%;
+    width: 45%;
     margin-left: 2em;
     font-size: 0.9em;
+    background-image: url(/assets/images/bg-article-vellum.jpg);
+    border-radius: $border-radius;
 }
 
 .center{
@@ -1022,8 +1077,14 @@ table, tr, td {
     padding: 1em;
 }
 
+.left {
+    float: left;
+    width: 50%;
+    padding: 1em;
+}
+
 .border {
-    border: thin solid black;
+    border: $color-item-border;
 }
 
 .shadow {

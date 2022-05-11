@@ -2,7 +2,7 @@
   "api_url": "https://api.github.com",
   "archived": false,
   "baseurl": "/pages/hot-domme/james-liao",
-  "build_revision": "ee82ad20700249f22dd0d8efa2ff7c12bdebe426",
+  "build_revision": "aed09af486d9c4248ce72411bad4cc3b0b6278b2",
   "clone_url": "https://github.com/hot-domme/james-liao.git",
   "contributors": [
     {
@@ -347,13 +347,13 @@
       "deployments_url": "https://api.github.com/repos/hot-domme/exocore/deployments",
       "created_at": "2022-05-05 16:20:36 UTC",
       "updated_at": "2022-05-05 16:50:50 UTC",
-      "pushed_at": "2022-05-09 15:20:30 UTC",
+      "pushed_at": "2022-05-11 04:47:02 UTC",
       "git_url": "git://github.com/hot-domme/exocore.git",
       "ssh_url": "git@github.com:hot-domme/exocore.git",
       "clone_url": "https://github.com/hot-domme/exocore.git",
       "svn_url": "https://github.com/hot-domme/exocore",
       "homepage": null,
-      "size": 40081,
+      "size": 40139,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "SCSS",
@@ -604,4 +604,4 @@
   },
   "wiki_url": "https://github.com/hot-domme/james-liao/wiki",
   "zip_url": "https://github.com/hot-domme/james-liao/zipball/gh-pages"
-}, "description"=>#<Jekyll::GitHubMetadata::Value:0x000000010728fb88 @key="description", @value=nil, @rendered=nil>, "tag_data"=>[]}:ET
+}, "description"=>#<Jekyll::GitHubMetadata::Value:0x0000000109dea300 @key="description", @value=nil, @rendered=nil>, "tag_data"=>[]}:ET

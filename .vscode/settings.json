@@ -30,4 +30,8 @@
   "pasteImage.basePath": "${projectRoot}",
   "netlify.api_token": "2USD9xBolRvHmrqP11P4inxeImJjcUgahrEEz7ASzIU",
   "netlify.site_id": "9029cc11-eeeb-48cb-a9e5-80736c519670",
+  "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+  "pasteImage.forceUnixStyleSeparator": false,
+  "pasteImage.prefix": "/",
+  "jekyll-run.stopServerOnExit": false,
 }

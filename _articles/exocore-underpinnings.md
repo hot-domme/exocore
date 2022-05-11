@@ -29,7 +29,8 @@ tags: meta exocore computers learning
 - Static Website Delivery
   
 ## Writing as Thinking, Written Output as Consolidated Thought
- - Feynman Technique 
+ - Feynman Technique
+ - General —> specific, scattered -> polished
 
 ## Data Ownership and Escaping Net Serfdom
 - Digital owned space
@@ -64,7 +65,6 @@ tags: meta exocore computers learning
 - Webrings 
 - Digital Gardens
   
-
 ## Related Concepts and Projects:
 - Project Xanadu
 - Memex

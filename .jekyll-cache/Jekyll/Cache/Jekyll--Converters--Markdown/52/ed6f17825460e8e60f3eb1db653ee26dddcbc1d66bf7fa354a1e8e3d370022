@@ -1,6 +1,4 @@
-I"D<h1 id="features-to-consider-for-the-exocore-and-resources-on-them">Features to consider for the exocore, and resources on them</h1>
-
-<h2 id="plugin-lists">Plugin Lists</h2>
+I" <h2 id="plugin-lists">Plugin Lists</h2>
 <ul>
   <li><a href="https://github.com/planetjekyll/awesome-jekyll-plugins">GitHub - planetjekyll/awesome-jekyll-plugins: A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)</a></li>
   <li><a href="https://github.com/planetjekyll/awesome-jekyll-editors">GitHub - planetjekyll/awesome-jekyll-editors: A collection of awesome Jekyll editors</a></li>
@@ -77,16 +75,7 @@
     <ul>
       <li><a href="https://dev.to/michael/compile-a-jekyll-project-without-installing-jekyll-or-ruby-by-using-docker-4184">Compile a Jekyll project without installing Jekyll or Ruby by using Docker</a></li>
       <li><a href="https://docs.docker.com/desktop/mac/">Docker Desktop for Mac user manual</a></li>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>[Building and Deploying Jekyll Sites using Docker - Part Two</td>
-              <td>martinpeck.com](https://martinpeck.com/jekyll/blog/containers/2019/02/03/build-and-deploy-jekyll-with-docker-part2/)</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
+      <li><a href="https://martinpeck.com/jekyll/blog/containers/2019/02/03/build-and-deploy-jekyll-with-docker-part2/">Building and Deploying Jekyll Sites using Docker - Part Two - martinpeck.com</a></li>
     </ul>
   </li>
   <li>Clean up HEAD</li>
@@ -112,6 +101,7 @@
   <li>~3 more themes</li>
   <li>Clean up HEAD</li>
   <li>Clean up .config</li>
+  <li>Clean up root directory</li>
   <li>Clean up warning messages</li>
   <li>Make all images link to self</li>
   <li>Make mobile compatible</li>
@@ -128,5 +118,7 @@
   <li>Books section</li>
   <li>Writeups of every feature</li>
   <li>Convert Exocore to purely instructional</li>
+  <li>Jekyll Snippets for VSCode</li>
+  <li>VSCode Jekyll serve integration</li>
 </ul>
 :ET

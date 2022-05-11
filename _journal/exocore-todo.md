@@ -5,7 +5,6 @@ date: 2022-04-22
 tags: meta exocore computers todo
 ---
 
-# 2022-04-22
 # Features to consider for the exocore, and resources on them
 
 ## Plugin Lists
@@ -68,7 +67,7 @@ tags: meta exocore computers todo
 - Use DOCKER
   - [Compile a Jekyll project without installing Jekyll or Ruby by using Docker](https://dev.to/michael/compile-a-jekyll-project-without-installing-jekyll-or-ruby-by-using-docker-4184)
   - [Docker Desktop for Mac user manual](https://docs.docker.com/desktop/mac/)
-  - [Building and Deploying Jekyll Sites using Docker - Part Two | martinpeck.com](https://martinpeck.com/jekyll/blog/containers/2019/02/03/build-and-deploy-jekyll-with-docker-part2/)
+  - [Building and Deploying Jekyll Sites using Docker - Part Two - martinpeck.com](https://martinpeck.com/jekyll/blog/containers/2019/02/03/build-and-deploy-jekyll-with-docker-part2/)
 - Clean up HEAD
 - Github Actions: Push at a particular time — once a day 
   - [Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
