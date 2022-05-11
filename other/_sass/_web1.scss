@@ -4,65 +4,63 @@
 
 /* --- Body Colors --- */
 
-$background: #fffcf7;
-$color-inner-divs: #fffdfb;
-$color-items: #fffdfb;
+$background: #f2f2f2;
+$color-inner-divs: $background;
+$color-items: $background;
 
 
 /* --- Text Colors --- */
 $color-text: black;
 $color-subtext: black;
-$internal-links: brown;
-$external-links: brown;
+$color-code: pink;
+$internal-links: blue;
+$external-links: blue;
 $invalid-links: $internal-links;
-$color-primary: brown;
+$color-primary: blue;
+$color-secondary: blue;
 $color-box-shadow: none;
 
 
 /* --- Borders --- */
-$article-border: none;
-$sidebar-border: 2px solid brown;
+$article-border: 2px dashed black;
+$sidebar-border: 2px dashed black;
 $prev-next-border: none;
 $color-item-border: none;
-$border-radius: 5px;
+$border-radius: 0px;
 
 /* --- Embeds, Sidenote and Footnote Colors --- */
-$embed-border: 2px solid brown;
+$embed-border: 2px dashed black;
 $color-embed-background: white;
 $color-embed-title: black;
 $color-embed-text: black;
 
-$footnote-border: 2px solid brown;
+$footnote-border: 2px dashed black;
 $color-footnote-background: white;
 $color-footnote-text: black;
 
 $sidenote-border: thin solid $color-primary;
-$color-sidenote-background: none;
-$color-sidenote-text: brown;
-
-$color-code-text: white;
-$color-code-highlight: brown;
-$color-code-background: $color-code-highlight;
+$color-sidenote-background: white;
+$color-sidenote-text: $color-text;
 
 
 
 /* --- Font Family --- */
 $font-family-sans-serif: Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI,  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 
-$font-family-serif: Times New Roman, Times, serif;
+$font-family-serif: serif;
 
-$font-family-monospace: ”Iosevka Term SS03”,”IBM Plex Mono”,”Fira Code”,”Fira Mono”,”Roboto Mono”,”Droid Sans Mono”,Monaco,Consolas,Courier,monospace;
-
+$font-family-monospace: "Courier", "Lucida Console", "Menlo Regular", "IBM Plex Mono", "Fira Code", "Fira Mono","Roboto Mono","Droid Sans Mono",Monaco,Consolas,Courier,monospace;
 
 
 body {
-  font-family: $font-family-serif;
+  font-family: $font-family-monospace;
   padding: 4vh 6vw;
   overflow-x: hidden;
   color: $color-text;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   background-color:$background;
 }
+
 
 /* TITLES
 ================================================== */
@@ -73,20 +71,19 @@ h1,h2,h3,h4,h5,h6 {
   font-size:1.15em;
   margin:1em;
   margin-left:0em;
-    font-variant: small-caps;
 }
 
-.title-text { text-decoration:underline; text-align:center; font-weight:bold; margin:0em; line-height:1em; font-size: 1.8em;}
+.title-text { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin:0em; line-height:1em;}
 
 .post-content{
     
-h1 { text-align:center;font-weight:bold; text-decoration: underline; font-size: 1.4em;}
+h1 {text-transform:uppercase; text-align:center;font-weight:bold; text-decoration: underline; font-size: 1.3em;}
 
-h2 { text-align:left;font-weight:bold; font-size: 1.4em}
+h2 {text-transform:uppercase; text-align:left;font-weight:bold; font-size: 1.25em}
 
-h3 {font-weight:normal; text-decoration:underline;text-align:left; font-size:1.3em;}
+h3 {text-transform:none;font-weight:normal; text-decoration:underline;text-align:left; margin-left:1em;}
 
-h4 {text-transform:none;font-weight:normal; font-size:1.2em; text-align:left}
+h4 {text-transform:none;font-weight:normal; font-size:1em; text-align:left}
 }
 
 
@@ -95,8 +92,11 @@ ul {
 }
 
 hr {
-  margin:1.5em;
-    display: none;
+    margin:1.5em;
+    border: none;
+    border-bottom: $article-border;
+    width: 60%;
+    margin: auto;
 }
 
 
@@ -105,15 +105,14 @@ hr {
 ================================================== */
 
 code {
-    color: white;
-    background-color: $color-code-highlight;
-    font-family: $font-family-monospace;
-    color: $color-code-text;
+  color: white;
+  background-color:black;
+  font-family: $font-family-monospace;
+  font-size: 1em;
 }
 
-
-.highlight {
-    background-color: $color-code-highlight;
+PRE {
+  margin-left: 1em;
 }
 
 
@@ -123,8 +122,10 @@ code {
 a {
   color: $external-links;
   text-decoration:none;
+
   &:hover {
-      cursor: alias;
+    text-decoration: underline;
+    cursor: alias;
   }
   &.internal-link {
     color: $internal-links;
@@ -137,41 +138,35 @@ a {
   cursor: help;
 }
 
+.sidenote a {
+    font-weight: normal !important;
+
+}
+nav a {
+    color: blue !important;
+    text-decoration: underline;
+  
+}
 .anchor a {
   color: $color-text;
   cursor: pointer;
-    
 }
-
 .anchor a:hover{
-    color: $internal-links;
-    cursor: pointer;
-    background-color: $background;
+  color: $internal-links;
+  cursor: pointer;
 }
 
 .toc-container a {
   cursor: pointer;
 }
 
-index-grid a:hover {
-
-      background-color: $background;
-      cursor: alias;
-}
-
-.sidebar-link-box a, .post-content a {
-    &:hover{
-      background-color: brown;
-      color: white;
-    }
-}
 
 
 /* HEADER ANCHORS
 ================================================== */
 
-.anchor {visibility: hidden; color:gray; opacity:0.7; text-decoration:none; font-size: 0.8em; font-family:monospace}
-.anchor:hover {text-decoration:none; color:white !important; cursor:pointer;}
+.anchor {visibility: hidden; color:gray; opacity:0.7; text-decoration:none; font-size: 0.8em; font-familiy:monospace}
+.anchor:hover {text-decoration:none; color:black !important; cursor:pointer;}
 h1:hover > a.anchor,
 h2:hover > a.anchor,
 h3:hover > a.anchor,
@@ -186,13 +181,17 @@ h6:hover > a.anchor {
 ================================================== */
 
 .title {
-    padding: 1em;
-    margin-bottom:1em;
+  border: $color-item-border; padding: 1em;
+  margin-bottom:1em;
 }
 
 /* BACKLINKS
 ================================================== */
 
+.backlink-box {
+// This is the box around the backlinks.
+// add your own styling here if you want
+}
 
 .backlinks-excerpt{
   font-size: 0.9em; color: $color-subtext;
@@ -202,14 +201,14 @@ h6:hover > a.anchor {
 }
 
 #graph-wrapper svg {
-    border: thin solid white;
+    border: 2px dashed black;
 }
 
 /* TABLE OF CONTENTS
 ================================================== */
 
 .toc-container{
-  border: none; 
+  border: $color-item-border; 
   padding: 1em;
   padding-bottom: 0em;
   margin: 1em;
@@ -233,22 +232,48 @@ h6:hover > a.anchor {
 }
 
 
+
+/* FOOTER
+================================================== */
+
+.footer-nav {
+  margin:1em;
+  font-size: 0.8em;
+  color: $color-text;
+  text-align:center;
+}
+
+license {
+  text-align: center;
+  font-family: $font-family-monospace;
+  font: 1.1em;
+}
+
+.license {
+  padding:1em; margin-top:1em; max-width: 28em; margin: 0 auto; text-align:center;
+}
+
+
 //--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--\\
 //--=--=--=--=--=--=--=--=*EXTRAS*=--=--=--=--=--=--=--=--\\
 //--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--\\
 
 
+
 /* STRUCTURE
 ================================================== */
 
-.sidebar-card, .index-card, .archive-cardi {
-    margin-bottom: 0em;
+.sidebar-card, .index-card, .archive-card {
+    margin-bottom: -2px;
     float: left;
     clear: both;
     background-color: $background;
     padding: 0.5em 1em;
     box-sizing: border-box;
     width: 100%;
+}
+
+.index-card, .archive-card {
 }
 
 .container-lg {
@@ -267,8 +292,8 @@ h6:hover > a.anchor {
 
 .midcolumn {
     float: left;
-    width: 50%;
-    margin: 1em;
+    width: 60%;
+    margin: 0.5em;
     
 @media (max-width: 900px)
      {width: 100%;
@@ -290,31 +315,28 @@ article {
 }
 
 
-.sidebar-card {
+.related {
     text-align: left;
-    background-color: white;
 }
 
-.sidebar-card h1 {
+.related h1 {
     padding: 0.5em;
     margin: auto;
     text-align: center
 }
 
-.sidebar-card h2 {
+.related h2 {
     margin: auto;
     padding-bottom: 0.5em;
     text-align: center;
-    font-weight: bold;
+    color: black;
 }
 
-.sidebar-card ul {
+.related ul {
     margin: 0.1em;
     padding-bottom: 0.5em;
     padding-left: 1em;
     list-style-position: outside;
-    font-weight: bold;
-    line-height: 1em;
 }
 
 .related ul li {
@@ -359,7 +381,7 @@ article {
 .sidebar-link-box, .index-grid {
     display: grid;
     grid-template-columns: auto;
-//    border: 2px brown solid; 
+    border: $color-item-border; 
     box-shadow: 1px 1px 0px $color-box-shadow;
     background-color: $color-inner-divs;
     margin-bottom: 0.5em;
@@ -372,30 +394,6 @@ article {
       display: block;
 }}
 
-.sidebar-link-box h2 {
-    font-size: 1.3em;
-    
-}
-
-.sidebar-link-box {
-    padding: 0em;
-}
-
-
-.sidebar-card h1 {
-    font-size: 1.4em;
-    padding: 0em;
-    text-decoration: underline;
-}
-
-.sidebar-link-box ul li {
-    list-style: none;
-    list-style-position: inside;
-
-}
-
-
-
 .silent-link {
     color: $color-text;
 }
@@ -406,7 +404,7 @@ article {
 .home-card {
     width: 400px;
     margin: auto;
-    padding: 25px; 
+    padding: -2px; 
     background-color: $background;
     border: $article-border;
 }
@@ -426,6 +424,7 @@ article {
     display: grid;
     grid-template-columns: 15% 70% 15%;
     padding: 5px;
+
 }
 
 .flip {
@@ -486,8 +485,6 @@ img+em {
     background-color: $color-inner-divs;
     padding: 1em;
     margin: 1em auto;
-    border: 2px solid brown;
-    border-radius: 5px;
     
 }
 
@@ -500,7 +497,7 @@ img+em {
     margin-bottom: 0.5em;
     line-height:1em;
     background-color: $color-items;
-    border: 2px solid $color-primary;
+    border: 1px solid $color-primary;
     border-radius: $border-radius;
     line-height:1em;
 }
@@ -513,10 +510,8 @@ img+em {
     border: $embed-border;
     padding: 1em;
     background-color: $color-embed-background;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    background: white;
-    border-radius: 5px;
+    margin-top: 2em ;
+    margin-bottom: 2em ;
 }
 
 .embed-title {
@@ -548,6 +543,8 @@ img+em {
     font-size: 0.8em;
     line-height: 1.1em;
     box-sizing: border-box;
+    background-color: $color-sidenote-background;
+    border: $sidenote-border;
     color: $color-sidenote-text;
 
 }
@@ -557,8 +554,6 @@ img+em {
     z-index: 1;
     box-sizing: border-box;
     color: $internal-links;
-    background: white;
-    border: 1px solid brown;
 }
 
 .sidenote:hover {
@@ -587,7 +582,6 @@ img+em {
     padding: 1em 0;
     background-color: $color-footnote-background;
     color: $color-footnote-text;
-    border-radius: 5px;
 }
 
 
@@ -600,9 +594,6 @@ img+em {
     text-align: left;
     grid-gap: flex;
     padding: 1em;
-        border: 2px solid brown;
-    border-radius: 5px;
-
     
      @media (max-width: 1000px)
      {grid-template-columns: auto;}
@@ -619,12 +610,13 @@ img+em {
     text-align: left;
     margin-bottom: 1em;
     padding: 0.5em;
-    border: 2px solid $color-primary;
+    border: none;
     box-sizing: border-box;
-    border-radius: 5px;
+        border-top: $article-border;
+
     
     &:hover {
-        box-shadow: 0px 0px 0px 1px $color-primary;
+        color: red;
     }
 }
 
@@ -638,6 +630,9 @@ font-weight: bold;
     text-decoration: underline;
     color: $color-text;
     overflow: hidden;
+        &:hover {
+        color: red;
+    }
 }
 
 .index-item-date, .library-item-filetype {
@@ -668,16 +663,14 @@ font-weight: normal;
 .archive-grid {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-gap: 0.5em;
+    grid-gap: -1px;
     background-color: $background;
     padding: 1em;
-    margin: auto;
 }
 
 .archive-card {
     background-color: $color-inner-divs;
     width: 100%;
-    margin: auto;
 }
 
 
@@ -692,9 +685,8 @@ font-weight: normal;
 
 .post-date {
     padding-top: 0.5em;
-    width: 100%;
-    text-align: center;
-    font-style: italic;
+    margin-left: 0.5em;
+    margin-bottom: -0.5em;
 
 }
 
@@ -710,7 +702,7 @@ font-weight: normal;
 }
 
 .library-image {
-    background: white;
+    background: black;
 }
 
 .library-image-container {
@@ -727,15 +719,8 @@ font-weight: normal;
 /* TAG PAGE
 ================================================== */
 
-.home-link-button a {
-    &:hover {
-    background-color: $background;
-    color: black;
-    }
-}
-
 .tile h1, .home-link-button h1 {
-  margin: auto;
+  margin: 0px;
     width: 100%;
     text-align: center;
 }
@@ -750,12 +735,7 @@ font-weight: normal;
 
 .tile, .home-link-button {
    background-color: $color-inner-divs;    
-    border: 2px solid $color-primary;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border-top: $article-border;
     &:hover {
     background-color: $color-items;}
 }
@@ -771,51 +751,31 @@ font-weight: normal;
 ================================================== */
 
 .prev-next {
+    margin-bottom: 0.5em;
     background-color: $background;
+//    display: grid;
+//    grid-template-columns: 10% 40% 40% 10%;
     width: 100%;
+    padding: 1em;
     height: 3.5em;
+    border-bottom: $prev-next-border;
 }
 
 .prev-next a {
     font-weight: bold;
     text-decoration: none;
-    overflow: hidden;
 }
 .prev {
     float: left;
-    border: 2px solid brown;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 0.5em;
-    width: 45%;
-    max-height: 2.5em;
-    text-align: center;
-    background: white;
-    line-height: 1.5em;
-
-    &:hover {
-    background: brown;
-        color: white; }
 }
-
 
 .next {
     float: right;
-    border: 2px solid brown;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 0.5em;
-    width: 45%;
-    max-height: 2.5em;
-    text-align: center;
-    background: white;
-    line-height: 1.5em;
-    
-    &:hover {
-    background: brown;
-        color: white; }
 }
 
+.title-text {
+    font-size: 1.5em;
+}
 
 .subtitle-text {
     width: 100%;
@@ -832,9 +792,9 @@ font-weight: normal;
     width: 2em;
     height: 2em;
     float: right;
-    border: 2px solid white;
+    border: 2px solid black;
     box-sizing: border-box;
-    box-shadow: 0px 0px 0px 1px black;
+    box-shadow: 0px 0px 0px 1px white;
     margin-top: -1em;
 }
 
@@ -846,7 +806,6 @@ font-weight: normal;
     margin-top: 1em;
     display: block;
     background: $background;
-    border: $article-border;
     padding: 2em;
     height: 45em;
     
@@ -858,13 +817,13 @@ font-weight: normal;
 
 
   .links line {
-    stroke: $color-primary;
+    stroke: black;
     opacity: 0.5;
   }
 
-.nodes circle {
+  .nodes circle {
     cursor: pointer;
-    fill: $color-primary;
+    fill: black;
     transition: all 0.15s ease-out;
   }
 
@@ -891,9 +850,6 @@ font-weight: normal;
   #graph-wrapper svg {
       background: $color-inner-divs;
       height: 40em;
-      border: 2px solid brown;
-      border-radius: 10px;
-
   }
 
 
@@ -930,8 +886,14 @@ table, tr, td {
 ================================================== */
 
 // Border around your posts
- article, .index-card {
-    border: $article-border;
+
+ article {
+    border-top: $article-border;
+    border-bottom: $article-border;
+    box-sizing: border-box;
+}
+
+ .index-card {
     box-sizing: border-box;
 }
 
@@ -939,13 +901,14 @@ table, tr, td {
 .sidebar-card, .border {
     border: $sidebar-border;
     box-sizing: border-box;
-    margin-bottom: 1em;
-        border-radius: 5px;
-
 }
 
+// Border around the next/previous buttons above and below your posts
+.prev-next, {
+    border: $prev-next-border; 
+    box-sizing: border-box;
 
-
+}
 
 /* GRAPHVIZ PARSER -- GRAPH VISUALISATION TOOL
 ================================================== */
@@ -977,8 +940,6 @@ table, tr, td {
     width: 40%;
     margin-left: 2em;
     font-size: 0.9em;
-    background: white;
-    border-radius: 5px;
 }
 
 .left-aside {
@@ -988,8 +949,6 @@ table, tr, td {
     width: 40%;
     margin-left: 2em;
     font-size: 0.9em;
-    background: white;
-    border-radius: 5px;
 }
 
 .center{
@@ -1007,18 +966,14 @@ table, tr, td {
 }
 
 .border {
-    border: medium solid brown;
+    border: thin solid white;
 }
 
 .shadow {
-    box-shadow: 0px 0px 15px black;
-}
-
-.glow {
     box-shadow: 0px 0px 15px white;
 }
 
-
-
-
+.glow {
+    box-shadow: 0px 0px 15px black;
+}
 
