@@ -84,7 +84,11 @@ tags: meta exocore computers todo
 - Pinned note functionality
 - ~3 more themes
 - Clean up HEAD
+- Clean up .config
+- Clean up root directory
+- Clean up warning messages
 - Make all images link to self
+- Make mobile compatible
 - Clean gemfile of unused plugins
 - Complete onboarding guide 
 - Decide on best online CMS
@@ -95,3 +99,5 @@ tags: meta exocore computers todo
 - Books section
 -  Writeups of every feature
 -  Convert Exocore to purely instructional 
+-  Jekyll Snippets for VSCode
+-  VSCode Jekyll serve integration
