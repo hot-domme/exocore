@@ -8,5 +8,3 @@ The Exocore is an easily navigable personal hypertext database for text and imag
 
 ## How to Begin
 Follow the instructions [here](/_articles/installation-instructions.md) to learn how to install your Exocore locally, set up publishing with Netlify, and view your site offline before publishing.
-
-

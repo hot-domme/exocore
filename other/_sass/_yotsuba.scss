@@ -64,7 +64,7 @@ article {
 
 body {
   background-color: black;
-  background-image: url("/assets/images/yotsuba-bg.gif");
+  background-image: url("/assets/images/bg-yotsuba.gif");
   background-repeat: repeat;
   box-sizing: content-box;
   font-family: $font-family-sans-serif;
@@ -993,6 +993,7 @@ table, tr, td {
     width: 40%;
     margin-left: 2em;
     font-size: 0.9em;
+    background-color: $color-embed-background;
 }
 
 .left-aside {
@@ -1002,6 +1003,7 @@ table, tr, td {
     width: 40%;
     margin-left: 2em;
     font-size: 0.9em;
+    background-color: $color-embed-background;
 }
 
 .center{
@@ -1014,6 +1016,12 @@ table, tr, td {
 
 .right {
     float: right;
+    width: 50%;
+    padding: 1em;
+}
+
+.left {
+    float: left;
     width: 50%;
     padding: 1em;
 }
