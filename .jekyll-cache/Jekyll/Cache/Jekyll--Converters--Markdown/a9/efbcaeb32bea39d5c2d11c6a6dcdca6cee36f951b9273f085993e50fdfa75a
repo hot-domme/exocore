@@ -1,0 +1,54 @@
+I"�<h2 id="launch-your-exocore">Launch your Exocore</h2>
+
+<p><strong>Join Github</strong></p>
+
+<p>If you don’t have a Github account, <a href="https://github.com/join">create one here</a>. Git provides the ability to edit your project locally, and push it to the web to be deployed as a website.</p>
+
+<p>Launch your Exocore instance on Netlify in a few minutes by clicking <a href="https://app.netlify.com/start/deploy?repository=https://github.com/hot-domme/exocore">here</a>. Netlify offers free hosting for your Exocore, and builds your site server-side with Jekyll. Sign up with your Github account, and follow the instructions to create a new Git repository (project) from this template. You’ll end up on a ‘Site Overview’ page from which you can customize your domain name (in domain settings).</p>
+
+<p>Your Exocore is now live! Read on to find out how to edit it on your local machine.</p>
+
+<h2 id="local-exocore-setup">Local Exocore setup</h2>
+
+<ol>
+  <li>Clone your new repository to your device</li>
+</ol>
+
+<p>Now that you have <a href="https://github.com/join">signed up with Github</a> and published your template Exocore, the easiest way to get the repository onto your device is to use the Github desktop app. You can also use the command line tool, but the GUI is friendlier for new users. You can download it <a href="https://desktop.github.com/">here</a>.</p>
+
+<p>Open the program and follow the instructions to sign in to your Github account, then find the repository you just created and click ‘clone (your-username/repository-name)’. Select a place you want the repository to live (such as your desktop) and click ‘Clone’. This downloads a copy of your Exocore onto your machine so that your changes will by synchronized.</p>
+
+<ol>
+  <li>Edit your Exocore in VSCode
+[VSCode]](https://code.visualstudio.com/) is a program you can use to write posts in your Exocore with the help of some handy <a class="wiki-link" href="/articles/exocore/#full-tech-stack">recommended extensions</a>.</li>
+</ol>
+
+<h3 id="4-open-your-newly-forked-repository-in-vscode">4. Open your newly forked repository in VSCode</h3>
+<p>Open VSCode and click file &gt; Open, then navigate to your Exocore’s root directory.</p>
+
+<p>Your Exocore is now ready to be edited locally. You can learn about how to create new posts <a class="wiki-link" href="/articles/start-here/#creating-new-posts">here</a>, or get familiar with Exocore syntax <a class="wiki-link" href="/articles/syntax/">here</a>.</p>
+
+<h2 id="publishing-your-exocore">Publishing Your Exocore</h2>
+
+<h3 id="1-make-a-netlify-account">1. Make a Netlify account</h3>
+
+<h3 id="2-connect-it-to-your-newly-forked-repo">2. Connect it to your Newly forked repo</h3>
+
+<h3 id="3-push-your-exocore-to-github-to-publish-as-a-website">3. Push your Exocore to Github to publish as a website</h3>
+
+<h2 id="using-jekyll-to-serve-your-website-locally">Using Jekyll to serve your website locally</h2>
+<ol>
+  <li>Install rbenv</li>
+  <li>Install Ruby — Need command line tools?</li>
+  <li>Install Bundler?</li>
+  <li>Jekyll serve</li>
+</ol>
+
+<hr />
+
+<h3 id="appendix-using-git-for-the-first-time">Appendix: Using Git for the first time</h3>
+<p>Git is a version management software which allows you to synchronise a project in multiple places at once. For the purposes of the Exocore, it is a way to edit your project locally, and push it to the web to be deployed as a website.</p>
+
+<p>After <a href="https://github.com/join">signing up with Github</a> and following the instructions after clicking ‘Use this template’, the easiest way to get the repository onto your device locally is to use the Github GUI. You can also use the command line tool, but the GUI is friendlier for new users. You can download it <a href="https://desktop.github.com/">here</a>.</p>
+
+:ET

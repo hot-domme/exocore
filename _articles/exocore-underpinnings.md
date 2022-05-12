@@ -2,7 +2,7 @@
 layout: article
 category: article
 subtitle: 
-topic:
+topic: Exocore
 date: 2022-04-16
 tags: meta exocore computers learning
 ---

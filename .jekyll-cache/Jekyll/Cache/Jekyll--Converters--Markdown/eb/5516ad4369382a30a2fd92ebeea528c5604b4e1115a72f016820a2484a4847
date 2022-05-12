@@ -1,0 +1,36 @@
+I"�	<h1 id="local-exocore-setup">Local Exocore Setup</h1>
+<h2 id="1-fork-the-template-repository-to-your-device">1. Fork the template repository to your device</h2>
+
+<p>If you don’t have a Github account, <a href="https://github.com/join">create one</a> and click the ‘Use this template’ button on <a href="https://github.com/hot-domme/exocore">this repo</a>, then follow the instructions. If you are unfamiliar with Git, you can take a look at the <a class="wiki-link" href="/articles/installation-instructions/#appendix-using-git-for-the-first-time">appendix</a> at the bottom of the page.</p>
+
+<h2 id="2-download-vscode">2. Download VSCode</h2>
+
+<p>[VSCode]](https://code.visualstudio.com/) is a program you can use to write posts in your Exocore with the help of some handy <a class="wiki-link" href="/articles/exocore/#full-tech-stack">recommended extensions</a>.</p>
+
+<h2 id="3-open-your-newly-forked-repository-in-vscode-with-file--open-and-navigating-to-its-root-directory">3. Open your newly forked repository in VSCode with file &gt; Open, and navigating to its root directory</h2>
+
+<p>Your Exocore is now ready to be edited locally. You can learn about how to create new posts <a class="wiki-link" href="/articles/start-here/#creating-new-posts">here</a>, or get familiar with Exocore syntax <a class="wiki-link" href="/articles/syntax/">here</a>.</p>
+
+<h1 id="publishing-your-exocore">Publishing Your Exocore</h1>
+<ol>
+  <li>Make a Netlify account</li>
+  <li>Connect it to your Newly forked repo</li>
+  <li>Push your Exocore to Github to publish as a website</li>
+</ol>
+
+<h1 id="using-jekyll-to-serve-your-website-locally">Using Jekyll to serve your website locally</h1>
+<ol>
+  <li>Install rbenv</li>
+  <li>Install Ruby — Need command line tools?</li>
+  <li>Install Bundler?</li>
+  <li>Jekyll serve</li>
+</ol>
+
+<hr />
+
+<h3 id="appendix-using-git-for-the-first-time">Appendix: Using Git for the first time</h3>
+<p>Git is a version management software which allows you to synchronise a project in multiple places at once. For the purposes of the Exocore, it is a way to edit your project locally, and push it to the web to be deployed as a website.</p>
+
+<p>After <a href="https://github.com/join">signing up with Github</a> and following the instructions after clicking ‘Use this template’, the easiest way to get the repository onto your device locally is to use the Github GUI. You can also use the command line tool, but the GUI is friendlier for new users. You can download it <a href="https://desktop.github.com/">here</a>.</p>
+
+:ET

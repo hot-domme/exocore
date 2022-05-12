@@ -35,7 +35,9 @@ First, download [VSCode]](https://code.visualstudio.com/). It's a program you ca
 
 After downloading, open your newly forked repository in VSCode by clicking file > Open, and navigating to your Exocore's top-level directory.
 
-The Netlify extension that you will be prompted to install can be used to publish your site without leaving VSCode. To do so, head to the 'Source Control' tab in the sidebar and click the checkmark icon
+The Netlify extension that you will be prompted to install can be used to publish your site without leaving VSCode. To set it up, navigate to the extension's settings via the icon in the bottom left corner, find the extension's settings, and paste your Netlify site ID into the relevant box. Your site ID can be found in Site settings > General > Site details in Netlify.
+
+To publish from VSCode, head to the 'Source Control' tab in the sidebar and click the checkmark icon to commit your changes and write a commit message. Then, click the ellipsis and hit 'Push'. You will see a message in the bottom info bar about your Netlify deploy.
 
 ---
 

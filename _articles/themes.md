@@ -2,8 +2,8 @@
 layout: article
 category: article
 subtitle:
-topic:
-date: 2022-05-12
+topic: Exocore
+date: 2022-05-04
 tags: 
 ---
 

@@ -1,0 +1,41 @@
+I"�<h2 id="local-exocore-setup">Local Exocore Setup</h2>
+<ol>
+  <li>Fork the template repository to your device</li>
+</ol>
+
+<p>If you don’t have a Github account, <a href="https://github.com/join">create one</a> and click the ‘Use this template’ button on <a href="https://github.com/hot-domme/exocore">this repo</a>, then follow the instructions. If you are unfamiliar with Git, you can take a look at the <a class="wiki-link" href="/articles/installation-instructions/#appendix-using-git-for-the-first-time">appendix</a> at the bottom of the page.</p>
+
+<ol>
+  <li>
+    <p>Download <a href="https://code.visualstudio.com/">VSCode</a></p>
+  </li>
+  <li>
+    <p>Open your newly forked repository in VSCode with file &gt; Open, and navigating to its root directory</p>
+  </li>
+</ol>
+
+<p>Your Exocore is now ready to be edited locally. You can learn about how to create new posts <a class="wiki-link" href="/articles/start-here/#creating-new-posts">here</a>, or get familiar with Exocore syntax <a class="wiki-link" href="/articles/syntax/">here</a>.</p>
+
+<h2 id="publishing-your-exocore">Publishing Your Exocore</h2>
+<ol>
+  <li>Make a Netlify account</li>
+  <li>Connect it to your Newly forked repo</li>
+  <li>Push your Exocore to Github to publish as a website</li>
+</ol>
+
+<h2 id="using-jekyll-to-serve-your-website-locally">Using Jekyll to serve your website locally</h2>
+<ol>
+  <li>Install rbenv</li>
+  <li>Install Ruby — Need command line tools?</li>
+  <li>Install Bundler?</li>
+  <li>Jekyll serve</li>
+</ol>
+
+<hr />
+
+<h3 id="appendix-using-git-for-the-first-time">Appendix: Using Git for the first time</h3>
+<p>Git is a version management software which allows you to synchronise a project in multiple places at once. For the purposes of the Exocore, it is a way to edit your project locally, and push it to the web to be deployed as a website.</p>
+
+<p>After <a href="https://github.com/join">signing up with Github</a></p>
+
+:ET

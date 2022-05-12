@@ -1,0 +1,45 @@
+I"�<h2 id="launch-your-exocore">Launch your Exocore</h2>
+
+<p><strong>1. Join Github</strong></p>
+
+<p>If you don’t have a Github account, <a href="https://github.com/join">create one here</a>. Git provides the ability to edit your project locally, and push it to the web to be deployed as a website. Remember to hide your email in Settings &gt; Emails &gt; Keep my email addresses private.</p>
+
+<p><strong>2. Launch your Exocore</strong></p>
+
+<p>Launch your Exocore instance on Netlify in a few minutes by clicking <a href="https://app.netlify.com/start/deploy?repository=https://github.com/hot-domme/exocore">here</a>. Netlify offers free hosting for your Exocore, and builds your site server-side with Jekyll. Sign up with your Github account, and follow the instructions to create a new Git repository (project) from this template. You’ll end up on a ‘Site Overview’ page from which you can customize your domain name (in domain settings).</p>
+
+<p>Your Exocore is now live! Read on to find out how to edit it on your local machine.</p>
+
+<h2 id="local-exocore-setup">Local Exocore setup</h2>
+
+<p><strong>3. Clone your new repository to your device</strong></p>
+
+<p>Now that you have <a href="https://github.com/join">signed up with Github</a> and published your template Exocore, the easiest way to get the repository onto your device is to use the Github desktop app. You can also use the command line tool, but the GUI is friendlier for new users. You can download it <a href="https://desktop.github.com/">here</a>.</p>
+
+<p>Open the program and follow the instructions to sign in to your Github account, then find the repository you just created and click ‘clone (your-username/repository-name)’. Select a place you want the repository to live (such as your desktop) and click ‘Clone’. This downloads a copy of your Exocore onto your machine so that your changes will by synchronized.</p>
+
+<p><strong>4. Edit and publish your Exocore from VSCode</strong></p>
+
+<p>First, download [VSCode]](https://code.visualstudio.com/). It’s a program you can use to write posts in your Exocore with the help of some handy <a class="wiki-link" href="/articles/exocore/#full-tech-stack">recommended extensions</a>, which you will be prompted to install when you open the Exocore.</p>
+
+<p>After downloading, open your newly forked repository in VSCode by clicking file &gt; Open, and navigating to your Exocore’s top-level directory.</p>
+
+<p>The Netlify extension that you will be prompted to install can be used to publish your site without leaving VSCode. To set it up, navigate to the extension’s settings with <code class="language-plaintext highlighter-rouge">command + ,</code> and find the extension’s settings. Paste your Netlify site ID into the relevant box.</p>
+
+<p>To do so, head to the ‘Source Control’ tab in the sidebar and click the checkmark icon to commit your changes. Then, click the ellipsis and hit ‘Push’. You will see a message in the bottom info bar about your Netlify deploy.</p>
+
+<hr />
+
+<p>You’re done! Your Exocore is now ready to be edited locally. You can learn about how to create new posts <a class="wiki-link" href="/articles/start-here/#creating-new-posts">here</a>, or get familiar with Exocore syntax <a class="wiki-link" href="/articles/syntax/">here</a>. To get familiar, it’s recommended that you read some of the <a href="/pages/all-articles">articles</a> which demonstrate some of the Exocore’s features, and particularly that you read them on your local device alongside the published website to see how to best take advantage of your website.</p>
+
+<!--
+
+--- 
+ ## For developers: Using Jekyll to serve your website locally
+1. Install rbenv
+2. Install Ruby — Need command line tools?
+3. Install Bundler?
+4. Jekyll serve
+-->
+
+:ET

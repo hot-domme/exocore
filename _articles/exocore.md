@@ -2,8 +2,8 @@
 layout: article
 category: article
 subtitle:
-topic: Computers
-date: 27 jan 2021
+topic: Exocore
+date: 27 jan 2022
 tags: exocore remilia computers web
 ---
 
@@ -65,7 +65,7 @@ The stack is an open-source repo and a suite of open-source programs and plugins
 - [Git](https://git-scm.com) (for publishing)
 - [Jekyll](https://jekyllrb.com) (optional)
 
-**VSCode Plugins:**
+**VSCode Plugins (Automatically downloaded with the repository)**
 - [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode)
 - [Netlify](https://marketplace.visualstudio.com/items?itemName=shailen.netlify)
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)

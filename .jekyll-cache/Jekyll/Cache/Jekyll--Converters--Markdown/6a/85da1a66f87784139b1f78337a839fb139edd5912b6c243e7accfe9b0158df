@@ -1,0 +1,34 @@
+I"�<h2 id="local-exocore-setup">Local Exocore Setup</h2>
+<ol>
+  <li>Fork the template repository to your device</li>
+</ol>
+
+<p>If you don’t have a Github account, <a href="https://github.com/join">create one</a> and click the ‘Use this template’ button on <a href="https://github.com/hot-domme/exocore">this repo</a>. If you are unfamiliar with Git, you can take a look at the appendix</p>
+
+<ol>
+  <li>Download <a href="https://code.visualstudio.com/">VSCode</a></li>
+  <li>Open your newly forked repository in VSCode with file &gt; Open, and navigating to its root directory</li>
+</ol>
+
+<p>Your Exocore is now ready to be edited locally. You can learn about how to create new posts <a class="wiki-link" href="/articles/start-here/#creating-new-posts">here</a>, or get familiar with Exocore syntax <a class="wiki-link" href="/articles/syntax/">here</a>.</p>
+
+<h2 id="publishing-your-exocore">Publishing Your Exocore</h2>
+<ol>
+  <li>Make a Netlify account</li>
+  <li>Connect it to your Newly forked repo</li>
+  <li>Push your Exocore to Github to publish as a website</li>
+</ol>
+
+<h2 id="using-jekyll-to-serve-your-website-locally">Using Jekyll to serve your website locally</h2>
+<ol>
+  <li>Install rbenv</li>
+  <li>Install Ruby — Need command line tools?</li>
+  <li>Install Bundler?</li>
+  <li>Jekyll serve</li>
+</ol>
+
+<hr />
+
+<h3 id="appendix-using-git-for-the-first-time">Appendix: Using Git for the first time</h3>
+
+:ET

@@ -2,8 +2,8 @@
 layout: article
 category: article
 subtitle:
-topic: Computers
-date: 4 feb 2022
+topic: Exocore
+date: 4 apr 2022
 tags: meta exocore
 ---
 
