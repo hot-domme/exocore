@@ -45,10 +45,6 @@ The Markov Blanket is a concept in machine learning which is essentially a shiel
 
 # Related Links // Research Dump:
 
-* [Ensemble (mathematical physics) - Wikipedia](https://en.wikipedia.org/wiki/Ensemble_(mathematical_physics)#:~:text=In%20classical%20mechanics%2C%20an%20ensemble,time%20according%20to%20Liouville's%20equation.)
-* [Canonical ensemble - Wikipedia](https://en.wikipedia.org/wiki/Canonical_ensemble)
-
-
 ![[2022-04-13]]
 
 

@@ -92,10 +92,10 @@ ul {
 }
 
 hr {
-    margin:1.5em;
+    margin:0em;
     border: none;
     border-bottom: $article-border;
-    width: 60%;
+    width: 100%;
     margin: auto;
 }
 
@@ -264,7 +264,7 @@ license {
 ================================================== */
 
 .sidebar-card, .index-card, .archive-card {
-    margin-bottom: -2px;
+    margin-bottom: 0px;
     float: left;
     clear: both;
     background-color: $background;
@@ -284,7 +284,11 @@ license {
 .leftcolumn {
     float: left;
     width: 15%;
-    margin: 0.5em;
+    margin: 0em;
+    border-left: $sidebar-border;
+    border-top: $sidebar-border;
+    border-bottom: $sidebar-border;
+
      @media (max-width: 900px)
      {width: 100%;
          margin: auto
@@ -293,7 +297,9 @@ license {
 .midcolumn {
     float: left;
     width: 60%;
-    margin: 0.5em;
+    margin: 0em;
+    border: $sidebar-border;
+
     
 @media (max-width: 900px)
      {width: 100%;
@@ -309,9 +315,13 @@ main {
 margin: auto;
 }
 
+.post-info {
+}
+
 article {
     background-color: $background;    
     box-shadow: 1px 1px 0px $color-box-shadow;
+    
 }
 
 
@@ -515,11 +525,7 @@ img+em {
 }
 
 .embed-title {
-    font-size: 1.5em;
-    text-decoration: underline;
-    margin-bottom: 1em;
-    text-align: center;
-    color: $color-embed-title;
+    display: none;
 }
 
 .embed-content {
@@ -751,19 +757,21 @@ font-weight: normal;
 ================================================== */
 
 .prev-next {
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
     background-color: $background;
 //    display: grid;
 //    grid-template-columns: 10% 40% 40% 10%;
     width: 100%;
     padding: 1em;
-    height: 3.5em;
+    height: 3em;
     border-bottom: $prev-next-border;
 }
 
 .prev-next a {
-    font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
+    &:hover {
+        color: red;
+    }
 }
 .prev {
     float: left;
@@ -898,9 +906,18 @@ table, tr, td {
 }
 
 // Border around the items in the sidebar
-.sidebar-card, .border {
+ .border {
     border: $sidebar-border;
     box-sizing: border-box;
+}
+
+.sidebar-card {
+    box-sizing: border-box;
+    border-bottom: $article-border;
+}
+
+.tags {
+    border-bottom: none;
 }
 
 // Border around the next/previous buttons above and below your posts
@@ -940,6 +957,7 @@ table, tr, td {
     width: 40%;
     margin-left: 2em;
     font-size: 0.9em;
+    background: white;
 }
 
 .left-aside {
@@ -949,6 +967,7 @@ table, tr, td {
     width: 40%;
     margin-left: 2em;
     font-size: 0.9em;
+    background: white;
 }
 
 .center{

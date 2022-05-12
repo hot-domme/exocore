@@ -1,0 +1,130 @@
+I"�#<p><img src="/attachments/exocore.png" alt="" /></p>
+
+<h2 id="executive-summary">Executive Summary</h2>
+
+<p>Do you take notes, or conduct personal research? Do you output or collect text or image content in any form, such as a blog, poetry, diary or visual art? Do you intake any form of media, and want to catalogue your findings or thoughts? Do you forget information? The Exocore is a means to store and organize and publish such a bank of information in an easily navigable form.</p>
+
+<p>The exocore comprises a set of a few programs and plugins, rolling them into a package which can be customized infinitely and modularly; without any technical knowledge it can still be made your own, and with even a touch of technical knowledge (particularly CSS or HTML facility) it can be made into anything at all.</p>
+
+<p>Its online component is a scaffolding for a website, and its offline component (fully functional without the online) is a filing system for notes, written output, or other data. Out of the box, it’s a local directory of folders and interacting files forming an empty template for a <a href="https://zettelkasten.de/introduction/">zettelkasten</a>/wiki, a platform for longform articles, a library of documents, a gallery of images, and an automatically created daily note. Mix and match these features as you wish; they are fully modular and independent.</p>
+
+<p>in future, these Exocores can comprise a webring linked by automatically updated network pages, as well as a <a href="https://xcela.org/#realtime-communicaiton">hyper-realtime IRC</a> for which the Exocore will operate as a personal homepage. They can also feature things like an automatically updated ‘latest posts’ feed from all other (or selected) Exocores, or just ‘related posts’ (by <a href="https://jekyllrb.com/docs/front-matter/">metadata</a> tags) from your own site.</p>
+
+<p>As mentioned, a user would be free to use or not use any of these features, so if they want to create a self-hosted platform like Substack with no extra features, this is facilitated.</p>
+
+<h3 id="user-experience">User experience:</h3>
+
+<p>A user will download the package in the form of a Github repository template, which will live on their local machine as a directory that can be manually or automatically pushed (synced) via <a href="https://git-scm.com">git</a> to a web domain, which will represent the documents in the directory after they are processed into an eaily-navigable and feature-rich website.</p>
+
+<p>A user can get by just fine only interacting with simple plaintext <a href="https://www.markdownguide.org">markdown</a> files, and can write posts and create hyperlinks between them, add pictures or PDFs and more, without going beyond in-text markdown syntax (read more about the Exocore’s syntax <a class="wiki-link" href="/articles/syntax/">here</a>). They are also able to control how their generated website handles their documents in a human-readable <a class="wiki-link" href="/articles/start-here/#using-metadata">metadata section</a> at the top of each post: tags, title, subtitle, categories, layouts, date, and any others that the user cares to add.</p>
+
+<p><img src="/attachments/girl-online.png" alt="" class="right" /></p>
+
+<p>Locally, the directory of notes (which will also be a git repository if you wish to publish as a website online) will be managed and maintained through a <a href="https://code.visualstudio.com">VS Code</a> workspace. The recommended extensions for your workspace arrives as a package of two things:</p>
+
+<ol>
+  <li>
+    <p>A template directory including templates for simple creation of new markdown documents of different kinds (article, journal entry, wiki note, daily note), each treated differently in the rendering of your website.</p>
+  </li>
+  <li>
+    <p>A set of VSCode plugins which offer a suite of features for the user to add to their directory of posts by facilitating easy linking between notes, URL management, and many other features. The directory can be easily hosted for free with <a href="https://www.netlify.com">Netlify</a>, for which a setup guide is available <a class="wiki-link" href="/articles/installation-instructions/#publishing-your-exocore">here</a>.</p>
+  </li>
+</ol>
+
+<h3 id="jekyll">Jekyll</h3>
+<p>To view your site before it is pushed online, a user can set up their Exocore directory to build a local instance of the site with <a href="https://jekyllrb.com">Jekyll</a>. When publishing, Netlify runs Jekyll server-side, so running it locally produces the same site as will be published.</p>
+
+<h3 id="customizability">Customizability</h3>
+
+<p>The stack is an open-source repo and a suite of open-source programs and plugins, and is therefore ultimately customizable. The level of customizability depends only on your technical know-how, but minimal learnings yield compounding rewards. Here is an idea of the level of control over your final website yielded by advancing levels of technical knowledge:</p>
+
+<ul>
+  <li><strong>No technical knowledge:</strong>
+    <ul>
+      <li>
+        <p>You can implement all of the above, and choose from a set of .CSS templates for your website to adjust its aesthetics. You can create posts, use the daily note functionality, store documents in the Library, create ZK notes and links between them, use backlinking, embed notes, and all other features mentioned above. Without technical knowledge all of the features listed <a href="#features-out-of-the-box">below</a> are fully functional, and metadata customizability is still available. You should become acquainted with markdown syntax, but this is easy enough to guess at, or to learn in under half an hour.</p>
+
+        <p>For publishing, a very cursory knowledge of git will come in handy, but git has a helpful GUI, and Exocore <a class="wiki-link" href="/articles/installation-instructions/#publishing-your-exocore">documentation</a> will include guides on how to publish your site.</p>
+      </li>
+    </ul>
+  </li>
+  <li><strong>HTML and CSS</strong>
+    <ul>
+      <li>You will be able to edit included stylesheets and HTML templates to create a site which looks absolutely any way that you wish. Both these languages are simple to learn, and even without learning them comprehensively a user can edit the provided templates and stylesheets to make major changes.</li>
+    </ul>
+  </li>
+  <li><strong>Jekyll/Liquid</strong>
+    <ul>
+      <li>You will be able to create logic functions to manipulate metadata stored in the markdown front matter, create custom menus or boxes with automatically generated content based on the front matter, assign your own front matter variables, and more.</li>
+    </ul>
+  </li>
+  <li><strong>Ruby</strong>
+    <ul>
+      <li>Learning Ruby is not at all necessary, but familiarity with it will facilitate you in packaging themes you have created for your exocore as Ruby Gems in case you would like to publish them for use by others. If you want to proliferate your particular model of the exocore, this is an easy way to package it.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="full-tech-stack-subject-to-additions">Full Tech Stack (Subject to additions)</h2>
+
+<ul>
+  <li><a href="https://foambubble.github.io/foam/">Foam</a> fork</li>
+  <li><a href="https://code.visualstudio.com">VS Code</a> (and plugin package)</li>
+  <li><a href="https://git-scm.com">Git</a> (For publishing)</li>
+  <li>
+    <p><a href="https://jekyllrb.com">Jekyll</a> (optional, but recommended)</p>
+
+    <p>Jekyll dependencies:</p>
+    <ul>
+      <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+      <li><a href="https://guides.rubygems.org/rubygems-basics/">RubyGems</a></li>
+      <li>Others, included in Jekyll package</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="features-out-of-the-box">Features Out of the Box:</h2>
+
+<h3 id="daily">Daily</h3>
+<p><strong>Daily surf dumps</strong></p>
+<ul>
+  <li>Created daily automatically, titled by the day</li>
+  <li>Theme: Gemini</li>
+  <li>Tags, next/prev, side/margin notes.</li>
+</ul>
+
+<h3 id="journal">Journal</h3>
+<p><strong>Longform, blog</strong></p>
+<ul>
+  <li>Theme: Gwern</li>
+  <li>Index: Chronological.</li>
+  <li>Secondary: tags.</li>
+  <li>Anchors, backlinks (at end), tags, hover, next/prev.</li>
+  <li>Related posts, sidenotes, margin notes, comments, webmentions</li>
+  <li>Secondary: TOC (dropdown)</li>
+  <li>footnotes/sections</li>
+</ul>
+
+<h3 id="articles">Articles</h3>
+<p><strong>Full articles</strong></p>
+<ul>
+  <li>Theme: Edith</li>
+  <li>Index: Categorical.</li>
+  <li>Secondary: tags.</li>
+  <li>Anchors, backlinks (at end), tags, hover, next/prev, related posts, margin notes, comments</li>
+  <li>Table of contents, sections, sectioned footnotes</li>
+  <li>Webmentions</li>
+  <li>sidenotes (== sectioned footnotes)</li>
+</ul>
+
+<h3 id="wiki">Wiki</h3>
+<p><strong>Zettalkasten</strong></p>
+<ul>
+  <li>Theme: Yotsuba</li>
+  <li>Index: Graph node.</li>
+  <li>Secondary: tags.</li>
+  <li>Anchors, backlinks (at top), tags, hover, footnotes, next/prev.</li>
+  <li>Side/margin notes (== Footnotes/asides), sections, comments, webmentions, related</li>
+</ul>
+
+:ET

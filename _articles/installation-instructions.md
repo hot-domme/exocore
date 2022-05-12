@@ -14,7 +14,7 @@ tags:
 2. Download [VSCode](https://code.visualstudio.com/)
 3. Open your newly forked repository in VSCode with file > Open, and navigating to its root directory
 
-Your Exocore is now ready to be edited locally. 
+Your Exocore is now ready to be edited locally. You can learn about the 
 
 ## Publishing Your Exocore
 1. Make a Netlify account
@@ -23,9 +23,7 @@ Your Exocore is now ready to be edited locally.
 
 
 ## Using Jekyll to serve your website locally
-1. Install rbenv*
-2. Install Ruby — Need command line tools?*
-3. Install Bundler?*
+1. Install rbenv
+2. Install Ruby — Need command line tools?
+3. Install Bundler?
 4. Jekyll serve 
-
-

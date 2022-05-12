@@ -12,14 +12,14 @@ tags: recipe nutrition food
 ## Spices:
 
 - Huang Jing (Siberian Solomon’s Seal)
-- Cosmic Qi, Yang power, tonifies all Three Treasures. Makes the body light and clears the eyes.
+  - Cosmic Qi, Yang power, tonifies all Three Treasures. Makes the body light and clears the eyes.
 - Goji Berry (Fructus Lycii)
-- Vision, liver and kidneys, neuroprotective
+  - Vision, liver and kidneys, neuroprotective
 - Dang Shen (Codonopsis pilosula)
-- Enhance Qi and improve digestion, nourish blood, tonify lungs, boost vitality.
+  - Enhance Qi and improve digestion, nourish blood, tonify lungs, boost vitality.
 - Chinese Yam
 - Ginseng Root
-- Manifold benefits
+  - Manifold benefits
 - (Huang Qi) Astragalia
 
 These can usually be found in a Chinese grocer as a single mix, but buying each separate and in bulk avoids packing markup— you can store a giant glass jar of this for years, cheaply, and only have to buy fresh chicken.

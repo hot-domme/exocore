@@ -1,0 +1,24 @@
+I"·<h2 id="local-exocore-setup">Local Exocore Setup</h2>
+<ol>
+  <li><a href="https://github.com/join">Create a Github account</a> and Fork <a href="https://github.com/hot-domme/exocore">this repo</a> to your computer</li>
+  <li>Download <a href="https://code.visualstudio.com/">VSCode</a></li>
+  <li>Open your newly forked repository in VSCode with file &gt; Open, and navigating to its root directory</li>
+</ol>
+
+<p>Your Exocore is now ready to be edited locally. You can learn about the</p>
+
+<h2 id="publishing-your-exocore">Publishing Your Exocore</h2>
+<ol>
+  <li>Make a Netlify account</li>
+  <li>Connect it to your Newly forked repo</li>
+  <li>Push your Exocore to Github to publish as a website</li>
+</ol>
+
+<h2 id="using-jekyll-to-serve-your-website-locally">Using Jekyll to serve your website locally</h2>
+<ol>
+  <li>Install rbenv</li>
+  <li>Install Ruby â€” Need command line tools?</li>
+  <li>Install Bundler?</li>
+  <li>Jekyll serve</li>
+</ol>
+:ET

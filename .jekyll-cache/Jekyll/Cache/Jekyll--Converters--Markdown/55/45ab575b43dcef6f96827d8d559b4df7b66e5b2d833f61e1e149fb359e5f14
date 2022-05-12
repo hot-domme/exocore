@@ -1,0 +1,180 @@
+I"�K<p><strong><code class="language-plaintext highlighter-rouge">It's best to read this document with the markdown and rendered output side-by-side to see how the markdown syntax is rendered at build time.</code></strong></p>
+
+<h2 id="markdown-basics">Markdown Basics</h2>
+
+<p>Much of the content of this article covers existing markdown syntax used universally in plain text formatting. However, some syntax, such as <a class="wiki-link" href="/articles/syntax/#examples-of-wikilinks">wikilinks</a> and <a class="wiki-link" href="/articles/syntax/#inserting-images">images</a> are particular to the Exocore.</p>
+
+<ul>
+  <li><a href="https://www.markdownguide.org/cheat-sheet/#basic-syntax">A Simple markdown cheat sheet </a></li>
+  <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">A more comprehensive markdown cheat sheet</a></li>
+</ul>
+
+<h2 id="headers">Headers</h2>
+
+<p>The above is a level 2 heading, preceded by <code class="language-plaintext highlighter-rouge">##</code> and a space.</p>
+
+<p>There’s nothing special about the way the Exocore processes headers— it’s just standard markdown. However, each header will render with an anchor link. If you hover over a heading and click the link icon that appears, the URL in your browser will reflect the section that you clicked. Now, if you copy that URL it will link directly to the heading that you clicked.</p>
+
+<h3 id="heading-levels">Heading levels</h3>
+
+<p>The above is a level 3 heading, preceded by <code class="language-plaintext highlighter-rouge">###</code> and a space.</p>
+
+<p>Here’s some advice: Only use top-level headings (preceded by <code class="language-plaintext highlighter-rouge">#</code>) for the document’s title. Aside from being markdown best practice, the Exocore takes your first top-level heading to use as the title of the page in the final rendered output. For intra-document section titles, use a level 2 heading. It’s for the best.</p>
+
+<h2 id="examples-of-wikilinks">Examples of Wikilinks:</h2>
+
+<p>Here are some wikilinks, pointing to other posts on this Exocore:</p>
+
+<ul>
+  <li><a class="wiki-link" href="/articles/exocore/">exocore</a></li>
+  <li><a class="wiki-link" href="/daily/2022-02-04/">2022 02 04</a>.</li>
+</ul>
+
+<p>In your local directory they are written as the title of their markdown file, surrounded by double square brackets. However, in the final render they are presented by default as the page’s title. This saves you typing out the whole page title in your markdown document, and allows the Foam VSCode extension to suggest files as you type. Below you can read about how to change their presentation.</p>
+
+<p><a class="wiki-link" href="/articles/exocore-underpinnings/">exocore underpinnings</a> if you don’t want to keep the title. Heads up— this link goes to an article about the theoretical underpinnings and historical precedent for the Exocore.</p>
+
+<p><a class="wiki-link" href="/articles/syntax/#wikilink-embeds">This wikilink is aliased with this text, and it points to a header further down on this very page</a> Under that header you will find a different sort of wikilink— an embed. The content of another note is embedded on a page. You can also point to a particular header within another note.<span class="invalid-wiki-link">[[drink-recipes#Orange Milk|This link]]</span> points to a recipe for orange milk.</p>
+
+<p>Check out the backlinks section at the bottom of <span class="invalid-wiki-link">[[business-virtue|this link’s]]</span> target note. You’ll find that this very article is automatically added. Backlinks are automatic, and display all the notes with internal links pointing to them.</p>
+
+<h2 id="wikilink-embeds">Wikilink Embeds</h2>
+
+<p>The below text is embedded, using the same wikilink syntax as normal, but with an <code class="language-plaintext highlighter-rouge">!</code> prepended. The full text of the linked note will be included. For example, here is an embedded note about the domestic address system in Abu Dhabi:</p>
+
+<div class="embed-wrapper"><div class="embed-title">Embedded Note</div><div class="embed-content"><h1 id="an-example-of-an-embedded-note">An example of an embedded note</h1><p>Cyber Asiatic Mystic Synthesis Return Eastern Technomarket Hegemon… Jade McDonalds Sun Poem… Agricultural Yield Disappear… Black Ice Ingestion Jericho Deep Kansas Grief Transfer Incubation Ritual (30 billion Eagles X 991hz) Platinum Prison Duplication Facility… Astral Screen-Cheating Strategies… Marble Moon Wire Theft. Jade Dragon Million Sex Control Dollars Professional Power. Luxury Million Yen Diamond Power (Exit Enclave) POLICE STATE BATH HOUSE™ Holding Corporation. Yin Massage Hot Egg…</p><div class="embed-wrapper"><div class="embed-title">Exocore Underpinnings</div><div class="embed-content"><h1 id="underpinnings-of-the-exocore">Underpinnings of the Exocore</h1><h2 id="digitally-integrated-mind-palace">Digitally-Integrated Mind Palace</h2><ul>  <li>Navigability    <ul>      <li>Easy hyperlinking = frequent hyperlinking</li>    </ul>  </li>  <li>Memorability    <ul>      <li>Hijacking and piggybacking on existing human mnemonic faculties        <ul>          <li>            <table>              <tbody>                <tr>                  <td>[[exocore-underpinnings#Chernoff Faces</td>                  <td>Chernoff Faces]]</td>                </tr>              </tbody>            </table>          </li>          <li>            <table>              <tbody>                <tr>                  <td>[[exocore-underpinnings#Urbit Sigils</td>                  <td>Urbit Sigils]]</td>                </tr>              </tbody>            </table>          </li>          <li>            <table>              <tbody>                <tr>                  <td>[[exocore-underpinnings#Urbit Names</td>                  <td>Urbit Names]]</td>                </tr>              </tbody>            </table>          </li>          <li>Spatial faculties — does an implementation exist?</li>        </ul>      </li>      <li>Zettelkasten mnemonic badges</li>    </ul>  </li></ul><h2 id="semantic-internet">Semantic Internet</h2><ul>  <li>Plain text    <ul>      <li>Accessibility</li>      <li>Universality</li>    </ul>  </li>  <li>Standards-compliance</li>  <li>Portability</li>  <li>Static Website Delivery</li></ul><h2 id="writing-as-thinking-written-output-as-consolidated-thought">Writing as Thinking, Written Output as Consolidated Thought</h2><ul>  <li>Feynman Technique</li>  <li>General —&gt; specific, scattered -&gt; polished</li></ul><h2 id="data-ownership-and-escaping-net-serfdom">Data Ownership and Escaping Net Serfdom</h2><ul>  <li>Digital owned space    <ul>      <li>Customisability</li>      <li>Local Instance</li>      <li>Digital and Personal Legacy</li>    </ul>  </li></ul><h2 id="foss">FOSS</h2><ul>  <li>The Viral Public License</li>  <li>Non-proprietary (open source) file formats</li></ul><h2 id="network-sublimation">Network Sublimation</h2><ul>  <li>Collaboration</li>  <li>Webrings</li>  <li>RSS</li>  <li>Remchat</li>  <li>The New Internet</li></ul><h2 id="frictionlessness">Frictionlessness</h2><ul>  <li>Local storage</li>  <li>No internet required</li>  <li>No coding required</li>  <li>Searchability — in contention with static design</li></ul><h2 id="tradition-of-the-exocore">Tradition of the Exocore</h2><ul>  <li>The Roman Room</li>  <li>The Memex</li>  <li>The Zettelkasten</li>  <li>Project Xanadu</li>  <li>Web 1.0</li>  <li>IRC</li>  <li>Webrings</li>  <li>Digital Gardens</li></ul><h2 id="related-concepts-and-projects">Related Concepts and Projects:</h2><ul>  <li>Project Xanadu</li>  <li>Memex</li>  <li>Compendium</li>  <li>Zettelkasten</li>  <li>Hyperdraft</li>  <li></li></ul><hr /><h2 id="visual-data-representations-that-piggyback-on-human-mnemonic-faculties">Visual data representations that piggyback on human mnemonic faculties</h2><h3 id="chernoff-faces">Chernoff Faces</h3><p><img src="../attachments/chernoff-faces.png" alt="" /></p><blockquote>  <p>“Chernoff faces, invented by applied mathematician, statistician and physicist Herman Chernoff in 1973, display multivariate data in the shape of a human face. The individual parts, such as eyes, ears, mouth and nose represent values of the variables by their shape, size, placement and orientation.”</p></blockquote><h3 id="urbit-sigils">Urbit Sigils</h3><p><img src="../attachments/urbit-sigils.png" alt="" /></p><h3 id="urbit-names">Urbit Names</h3><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Prefixes   Suffixes    ---------- ---------- 0.    doz        zod1.    mar        nec2.    bin        bud3.    wan        wes4.    sam        sev5.    lit        per6.    sig        sut7.    hid        let8.    fid        ful9.    lis        pen10.   sog        syt11.   dir        dur12.   wac        wep13.   sab        ser14.   wis        wyl15.   sib        sun</code></pre></div></div><p><strong>Example:</strong></p><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  8 bits  galaxy  ~lyt 16 bits  star    ~diglyt 32 bits  planet  ~picder-ragsyt 64 bits  moon    ~diglyt-diglyt-picder-ragsyt128 bits  comet   ~racmus-mollen-fallyt-linpex--watres-sibbur-modlux-rinmex</code></pre></div></div><h3 id="roman-roommemory-palacemethod-of-loci">Roman Room/Memory Palace/Method of Loci</h3><p><img src="/attachments/roman-room.jpg" alt="" /></p><h1 id="the-lukasa">The Lukasa</h1><p><img src="/attachments/lukasa.jpg" alt="" /></p><blockquote>  <p>“Court historians known as bana balute (“men of memory”) run their fingertips across the surface of a lukasa or point to its features while reciting genealogies, king lists, maps of protocol, migration stories, and the great Luba Epic, a preeminent oral narrative that records how the culture heroes, Mbidi Kiluwe and his son Kalala Ilunga, introduced royal political practices and etiquette. “</p></blockquote></div><a class="embed-wiki-link" href="/articles/exocore-underpinnings/"></a></div></div><a class="embed-wiki-link" href="/journal/embedded-note/"></a></div>
+
+<h2 id="hyperlinks">Hyperlinks</h2>
+
+<p>Hyperlinks to external sites are not the same as wikilinks. A wikilink is a simple way to hyperlink to other posts on your Exocore without using the full processed URL as it is rendered online. A wikilink works locally in VSCode, allowing you to navigate between posts, and is transformed at render time to a web hyperlink, so that it always points to the correct page.</p>
+
+<p>To create a hyperlink, use single normal parentheses around the URL you want to point to, and square brackets around the text you want displayed:</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Parenthesis">https://en.wikipedia.org/wiki/Parenthesis</a></p>
+
+<p>You can alias a hyperlink by changing the text in the square brackets, like this:</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Hyperlink">Here’s some more information about Hyperlinks.</a></p>
+
+<h2 id="applying-classes-to-a-paragraph-or-image">Applying classes to a paragraph or image</h2>
+
+<p class="right-aside"><strong>Oh, by the way:</strong> You can apply the <code class="language-plaintext highlighter-rouge">.right-aside</code> class to create an aside, like this one. An aside floats to one side and other text wraps around it. <code class="language-plaintext highlighter-rouge">.left-aside</code> is also available for some variety.</p>
+
+<p>Kramdown, the Markdown parser used by this implementation of the Exocore, has the ability to apply a CSS class to a paragraph by including syntax like <code class="language-plaintext highlighter-rouge">{:.classname}</code> at the top or bottom of a paragraph. The class will be applied to the whole paragraph. The Exocore stylesheet includes a few general classes meant to be used for just this purpose, which you should feel free to add to.</p>
+
+<p><strong>The following classes are pre-defined in the Exocore stylesheet:</strong></p>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.center</code> — <em>Reduces width of paragraph and centers it for emphasis</em></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.left-aside</code>, <code class="language-plaintext highlighter-rouge">.right-aside</code> — <em>Applies a border and floats to the left/right. Other text will wrap around it</em></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.left</code>, <code class="language-plaintext highlighter-rouge">.right</code> - <em>Reduces width and places to the left/right (meant for images)</em></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.border</code> - <em>applies a thin black border</em></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.shadow</code> - <em>applies a black blurred drop shadow</em></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.glow</code> - <em>applies a white blurred drop shadow (produces a glowing effect</em></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.flip</code> - <em>flips the image (or text) horizontally</em></p>
+  </li>
+</ul>
+
+<h2 id="tables">Tables</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>You</td>
+      <td>can</td>
+      <td>create a table</td>
+      <td>like this.</td>
+    </tr>
+    <tr>
+      <td>A newline</td>
+      <td>in markdown</td>
+      <td>extends the table</td>
+      <td>vertically.</td>
+    </tr>
+    <tr>
+      <td>A pipe</td>
+      <td>extends the table</td>
+      <td>laterally.</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="graphviz">Graphviz</h2>
+
+<p>For more complex data representation, <a href="https://graphviz.org/">Graphviz</a> can be used in conjunction with the Exocore. Read more about Graphviz syntax <a href="https://graphviz.org/documentation/">here</a>, and find a demonstration of the way it is used with the Exocore <span class="invalid-wiki-link">[[graphviz-test|here]]</span></p>
+
+<h2 id="sidenotes-and-footnotes">Sidenotes and Footnotes:</h2>
+
+<p>Here’s a simple footnote with no linebreaks in it.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> Each footnote is an anchor link to the bottom of the page, with a return link attached. Notice the sidenote in the right margin, identical to the footnote.</p>
+
+<p>Right now, all footnotes are also rendered as sidenotes. Perhaps in future these features will become separate, or perhaps they are best left united. A footnote forms a commentary or citation best kept separate from the main text, and a sidenote is an easy way for a reader to access such commentary without breaking ergonomy by jumping up and down the page, while still keeping a united list of all commentary at the bottom of the page. Therefore, their purposes overlap substantially and their marriage seems right.</p>
+
+<p>If you want to add multi-paragraph footnotes, indent your second paragraph, like this.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<p>You can put a footnote’s markdown reference immediately under a paragraph, like this<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>, or clump them at the end. Either way, they will appear at the bottom in your rendered content.</p>
+
+<p>Footnotes automatically form a numbered list, and can also be mapped by name, like this<sup id="fnref:named-footnote" role="doc-noteref"><a href="#fn:named-footnote" class="footnote" rel="footnote">4</a></sup></p>
+
+<h2 id="sidenotes">Sidenotes</h2>
+
+<h2 id="inserting-images">Inserting images</h2>
+
+<p>To insert an image, use the following syntax:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](/attachments/mouse.jpg)
+</code></pre></div></div>
+<p>However, <strong>don’t bother remembering this syntax.</strong> the easiest way to insert an image is to use the Paste Image VSCode extension, which you will be prompted to download as a recommended third-party extension of the Foam VSCode extension. For MacOS, copy your image to the clipboard, and use keyboard command <code class="language-plaintext highlighter-rouge">CMD + option + V</code>. You will be prompted to give your image file a name, and add it to the attachments folder in your Exocore’s top-level directory. <strong>Note:</strong> If you CMD+C copy an image from your desktop on a mac, it is not copied to your clipboard. Instead, open the image, and then use the same keyboard command.</p>
+
+<p>You can insert alt text and a caption like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![This is alt text](/attachments/mouse.jpg)
+*Insert a caption by placing italicised textimmediately underneath the image, with no empty line in between.*
+</code></pre></div></div>
+<p>The above snippet produces the below outcome:</p>
+
+<p><img src="/attachments/mouse.jpg" alt="This is alt text" />
+<em>Insert a caption by placing italicised textimmediately underneath the image, with no empty line in between.</em></p>
+
+<h2 id="embedded-code">Embedded Code</h2>
+<p>Below are a couple of lines of code, a shell script I call when I want to serve a local render of my Exocore to see how it looks before I publish it. To embed a piece of code so that characters are rendered verbatim, surround the code snippet with ``` on either side, like so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/zsh
+cd ~/desktop/james-liao &amp;&amp; bundle exec jekyll serve --baseurl ''
+</code></pre></div></div>
+
+<h2 id="naming-files">Naming files</h2>
+
+<p>Don’t use whitespace in your filenames— instead, name-them-like-this. This way, titles are easily converted to URLs and the back end of the Exocore remains happy. This of course applies only to filenames, and you may title your posts how you wish.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is the first footnote. Note the return button: <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>For longer footnotes, you may want to use multiple paragraphs.</p>
+
+      <p>Indent paragraphs to include them in the footnote. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>This footnote appears immediately underneath it’s referring paragraph in this document’s original markdown, but on the rendered website it shows at the bottom. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:named-footnote" role="doc-endnote">
+      <p>This footnote has the name ‘named-footnote’. it’s still numbered and appears in sequence the same way the others do, but naming it might help you manage a document with many footnotes when dealing with your local markdown. <a href="#fnref:named-footnote" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

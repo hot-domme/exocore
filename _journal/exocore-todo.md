@@ -5,6 +5,8 @@ date: 2022-04-22
 tags: meta exocore computers todo
 ---
 
+# Exocore Production Log
+
 # Features to consider for the exocore, and resources on them
 
 ## Plugin Lists
@@ -24,7 +26,6 @@ tags: meta exocore computers todo
 * [GitHub - Zettelkasten-Method/zkviz: Zettel Network Visualizer](https://github.com/Zettelkasten-Method/zkviz/)
 * [Post on Zettelkasten Graph Visualisation for Jekyll](https://forum.zettelkasten.de/discussion/102/static-website-hugo-jekyll-etc-as-a-zettelkasten)
 * [Designing a Personal Knowledgebase – A Curious Mix](http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase/)
-
 
 ## oEmbeds and Embeds for Tweets and PDFs 
 * [GitHub - rob-murray/jekyll-twitter-plugin: A Liquid tag plugin for the Jekyll blogging engine that embeds Tweets, Timelines and more from Twitter API](https://github.com/rob-murray/jekyll-twitter-plugin)
@@ -100,3 +101,14 @@ tags: meta exocore computers todo
 -  Convert Exocore to purely instructional 
 -  Jekyll Snippets for VSCode
 -  VSCode Jekyll serve integration
+-  Create Auto-push every 24hrs
+   - [GitDoc?](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc)
+   -  Github Actions
+-  Make daily note delete if unused
+-  Choose theme on front end — user chooses theme
+-  Make exocore template repo
+- Flesh out setup guide (with screenshots)
+  - netlify one click setup
+    - sign in with github
+  - Git GUI / Cloning your repo
+- Add comments feature

@@ -1,0 +1,68 @@
+I"a<h2 id="uris-urls-uuids-eris-irls-purls-rddls-and-more">URIs, URLs, UUIDs, ERIs, IRLs, PURLs, RDDLs, and more</h2>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Design">Uniform Resource Identifier - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Linked_data">Linked data - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Extensible_Resource_Identifier">Extensible Resource Identifier - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier">Internationalized Resource Identifier - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Internet_resource_locator">Internet resource locator - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator">Persistent uniform resource locator - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Resource_Directory_Description_Language">Resource Directory Description Language - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">Universally unique identifier - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_URI_schemes">List of URI schemes - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/URL">URL - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/XLink">XLink - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/CURIE">CURIE - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">Hypertext Transfer Protocol - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Domain_name">Domain name - Wikipedia</a></li>
+</ul>
+
+<h2 id="analysis-and-allocation-dimension-in-data-representation-and-reality-facing-informatics">Analysis and Allocation, Dimension in Data Representation and Reality-Facing Informatics</h2>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation">Latent Dirichlet allocation - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Linear_discriminant_analysis">Linear discriminant analysis - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Linear_discriminant_analysis#Eigenvalues">Linear discriminant analysis - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Dimensionality_reduction">Dimensionality reduction - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Intrinsic_dimension">Intrinsic dimension - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Curse_of_dimensionality">Curse of dimensionality - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Signal_processing">Signal processing - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Speech_recognition">Speech recognition - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Computational_complexity_theory#Intractability">Computational complexity theory - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Cluster_analysis">Cluster analysis - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Bioinformatics">Bioinformatics - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Neuroinformatics">Neuroinformatics - Wikipedia</a></li>
+</ul>
+
+<h2 id="semantic-web-and-share-structured-databases">Semantic Web and Share-structured Databases</h2>
+
+<ul>
+  <li><a href="https://www.w3.org/standards/semanticweb/">Semantic Web - W3C</a></li>
+  <li><a href="https://www.ontotext.com/knowledgehub/fundamentals/what-is-the-semantic-web/">What Is the Semantic Web? - Ontotext Fundamentals</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Semantic_Web">Semantic Web - Wikipedia</a></li>
+  <li><a href="https://www.google.com/search?q=semantic+web&amp;sxsrf=APq-WBuviUcVfnITrQgS5JUmluOmjb2ZVw:1643921469364&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjB7-DZtOT1AhXBILcAHXRBCVkQ_AUoAXoECAkQAw&amp;biw=1189&amp;bih=1336&amp;dpr=1">semantic web - Google Search</a></li>
+  <li><a href="https://www.w3.org/2001/sw/wiki/SemanticWebTools">SemanticWebTools - Semantic Web Standards</a></li>
+  <li><a href="https://soc1024.ece.illinois.edu/permacoin.pdf">permacoin.pdf</a></li>
+  <li><a href="https://www.w3.org/TR/did-core/">Decentralized Identifiers (DIDs) v1.0</a></li>
+</ul>
+
+<h1 id="computation-complexity">Computation Complexity</h1>
+
+<ul>
+  <li><a href="https://towardsdatascience.com/linear-time-vs-logarithmic-time-big-o-notation-6ef4227051fb">Linear Time vs. Logarithmic Time — Big O Notation - by Jhantelle Belleza - Towards Data Science</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Computational_hardness_assumption">Computational hardness assumption - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Time_complexity">Time complexity - Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Space_complexity">Space complexity - Wikipedia</a></li>
+</ul>
+
+<h2 id="other-reading">Other Reading:</h2>
+
+<ul>
+  <li><a href="https://www.holdingredlich.com/when-is-an-offer-a-calderbank-offer">When is an offer a Calderbank offer? The Federal Court confirms the importance of clear intent</a></li>
+  <li><a href="https://www.lewissilkin.com/en/insights/without-prejudice-and-without-prejudice-save-as-to-costs-reasons-to-be-careful">Lewis Silkin - Without Prejudice and Without Prejudice Save as to Costs – Reasons to be Careful</a></li>
+  <li><a href="https://hackr.io/blog/best-programming-languages-to-learn-2022-jobs-future">Best Programming Languages to Learn in 2022 (for Job &amp; Future)</a></li>
+</ul>
+
+<p><span class="invalid-wiki-link">[<a href="../_journal/business-virtue" title="The American Samurai">business-virtue</a>]</span></p>
+
+:ET

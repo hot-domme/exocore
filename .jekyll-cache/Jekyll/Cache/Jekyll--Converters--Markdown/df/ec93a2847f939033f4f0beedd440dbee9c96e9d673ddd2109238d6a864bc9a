@@ -1,0 +1,132 @@
+I"�<h2 id="plugin-lists">Plugin Lists</h2>
+<ul>
+  <li><a href="https://github.com/planetjekyll/awesome-jekyll-plugins">GitHub - planetjekyll/awesome-jekyll-plugins: A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)</a></li>
+  <li><a href="https://github.com/planetjekyll/awesome-jekyll-editors">GitHub - planetjekyll/awesome-jekyll-editors: A collection of awesome Jekyll editors</a></li>
+</ul>
+
+<h2 id="online-composition-and-editing">Online Composition and Editing</h2>
+<ul>
+  <li><a href="https://github.com/netlify/netlify-cms">GitHub - netlify/netlify-cms: A Git-based CMS for Static Site Generators</a></li>
+  <li><a href="https://github.com/jekyll/jekyll-admin">GitHub - jekyll/jekyll-admin: A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites.</a></li>
+  <li><a href="https://github.com/prose/prose">GitHub - prose/prose: A Content Editor for GitHub.</a></li>
+</ul>
+
+<h2 id="graph-visualisation">Graph Visualisation</h2>
+
+<p class="right"><img src="/attachments/connection-graph.png" alt="" /></p>
+
+<ul>
+  <li><a href="https://github.com/Zettelkasten-Method/zkviz/">GitHub - Zettelkasten-Method/zkviz: Zettel Network Visualizer</a></li>
+  <li><a href="https://forum.zettelkasten.de/discussion/102/static-website-hugo-jekyll-etc-as-a-zettelkasten">Post on Zettelkasten Graph Visualisation for Jekyll</a></li>
+  <li><a href="http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase/">Designing a Personal Knowledgebase – A Curious Mix</a></li>
+</ul>
+
+<h2 id="oembeds-and-embeds-for-tweets-and-pdfs">oEmbeds and Embeds for Tweets and PDFs</h2>
+<ul>
+  <li><a href="https://github.com/rob-murray/jekyll-twitter-plugin">GitHub - rob-murray/jekyll-twitter-plugin: A Liquid tag plugin for the Jekyll blogging engine that embeds Tweets, Timelines and more from Twitter API</a></li>
+  <li><a href="https://rubygems.org/gems/jekyll_oembed">jekyll_oembed</a></li>
+  <li><a href="https://rubygems.org/gems/jekyll-pdf-embed">jekyll-pdf-embed </a></li>
+  <li><a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_plugins/embed_tweets.rb">digital-garden-jekyll-template/embed_tweets.rb at master · maximevaillancourt/digital-garden-jekyll-template · GitHub</a></li>
+</ul>
+
+<h2 id="backlinking-and-visualisation-of-note-connections">Backlinking and Visualisation of Note Connections</h2>
+<ul>
+  <li><a href="https://github.com/manunamz/jekyll-namespaces">GitHub - manunamz/jekyll-namespaces: Add file.name.spacing support for jekyll.</a></li>
+  <li><a href="https://github.com/manunamz/jekyll-graph">GitHub - manunamz/jekyll-graph: Add graph(s) support for jekyll.</a></li>
+  <li></li>
+</ul>
+
+<h2 id="snippets-and-syntax-support-for-vscode">Snippets and Syntax Support for VSCode</h2>
+<ul>
+  <li><a href="https://marketplace.visualstudio.com/items?itemName=ginfuru.vscode-jekyll-snippets">Jekyll Snippets - Visual Studio Marketplace</a></li>
+  <li><a href="https://marketplace.visualstudio.com/items?itemName=ginfuru.ginfuru-vscode-jekyll-syntax">jekyll-syntax-support</a></li>
+</ul>
+
+<h2 id="misc">Misc</h2>
+<ul>
+  <li><a href="http://octopress.org/">Octopress</a></li>
+  <li><a href="https://github.com/keithmifsud/jekyll-target-blank">GitHub - keithmifsud/jekyll-target-blank: Automatically opens external links in a new browser for Jekyll Pages, Posts and Docs.</a></li>
+  <li><a href="https://github.com/jekyll/jekyll-mentions">GitHub - jekyll/jekyll-mentions: @mention support for your Jekyll site</a></li>
+  <li><a href="https://rubygems.org/gems/premonition">premonition</a></li>
+</ul>
+
+<hr />
+
+<h2 id="other-features">Other Features</h2>
+<ul>
+  <li>‘ID’ YAML metadata tag for Wiki notes, to allow provision of both a title and an ID, rather than the ID being the title. Allows for independent manipulation of ID, and mnemonic titles. <a href="https://zettelkasten.de/posts/add-identity/">Some info on identifiers in ZK</a></li>
+  <li>Addition of VSCode tags for identifiers to insert into template notes</li>
+  <li>Citation management doubling as PDF storage/database <a href="https://zettelkasten.de/posts/bibliography-zettelkasten/">Manage Citations for a Zettelkasten • Zettelkasten Method</a></li>
+  <li>Images should all link to themselves</li>
+  <li>Need backlink graph visualisation — steal from <a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_plugins">here?</a></li>
+  <li>FIX Netlify build error when invalid links</li>
+  <li>Implement forelinks</li>
+  <li>link somewhere to jekyll-wikilinks documentation</li>
+  <li>edit image paste settings to be simplest possible — base image path, input box etc</li>
+  <li>Pinned Notes:
+    <ul>
+      <li>Pinned: true/false in metadata</li>
+      <li>Pinned note appears in sidebar</li>
+    </ul>
+  </li>
+  <li>Github Actions daily push</li>
+  <li>Build ~3 more themes</li>
+  <li>Use DOCKER
+    <ul>
+      <li><a href="https://dev.to/michael/compile-a-jekyll-project-without-installing-jekyll-or-ruby-by-using-docker-4184">Compile a Jekyll project without installing Jekyll or Ruby by using Docker</a></li>
+      <li><a href="https://docs.docker.com/desktop/mac/">Docker Desktop for Mac user manual</a></li>
+      <li><a href="https://martinpeck.com/jekyll/blog/containers/2019/02/03/build-and-deploy-jekyll-with-docker-part2/">Building and Deploying Jekyll Sites using Docker - Part Two - martinpeck.com</a></li>
+    </ul>
+  </li>
+  <li>Clean up HEAD</li>
+  <li>Github Actions: Push at a particular time — once a day
+    <ul>
+      <li><a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows">Events that trigger workflows - GitHub Docs</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="todo">TODO</h1>
+<ul>
+  <li>Docker
+    <ul>
+      <li>Learn how it works</li>
+      <li>Can a docker image be altered later? or must the image be taken after all relevant changes have been made?</li>
+      <li>Craft a Docker image for the exocore</li>
+    </ul>
+  </li>
+  <li>Make graph work again</li>
+  <li>Github actions setup</li>
+  <li>Pinned note functionality</li>
+  <li>~3 more themes</li>
+  <li>Clean up HEAD</li>
+  <li>Clean up .config</li>
+  <li>Clean up root directory</li>
+  <li>Clean up warning messages</li>
+  <li>Make all images link to self</li>
+  <li>Make mobile compatible</li>
+  <li>Clean gemfile of unused plugins</li>
+  <li>Complete onboarding guide</li>
+  <li>Decide on best online CMS
+    <ul>
+      <li>Prose.io?</li>
+      <li>Jekyll CMS?</li>
+      <li>Other? See above</li>
+    </ul>
+  </li>
+  <li>Recipes section</li>
+  <li>Books section</li>
+  <li>Writeups of every feature</li>
+  <li>Convert Exocore to purely instructional</li>
+  <li>Jekyll Snippets for VSCode</li>
+  <li>VSCode Jekyll serve integration</li>
+  <li>Create Atuo-push every 24hrs
+    <ul>
+      <li><a href="https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc">GitDoc?</a></li>
+      <li>
+        <h2 id="github-actions">Github Actions</h2>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

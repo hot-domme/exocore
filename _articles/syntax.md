@@ -32,28 +32,27 @@ Here's some advice: Only use top-level headings (preceded by `#`) for the docume
 
 ## Examples of Wikilinks:
 
-Here are some wikilinks, pointing to other posts on this Exocore:
+Here are some basic wikilinks, pointing to other posts on this Exocore:
 
  - [[exocore]]
- - [[business-virtue]]
- - [[2022-02-04]].
+ - [[2022-02-04]]
 
-In your local directory they are written as the title of their markdown file, surrounded by double square brackets. However, in the final render they are presented by default as the page's title. This saves you typing out the whole page title in your markdown document, and allows the Foam VSCode extension to suggest files as you type. Below you can read about how to change their presentation.
+They are written as the title of their corresponding markdown file, surrounded by double square brackets. However, in the final render they are presented by default as the page's title. This saves you typing out the whole page title in your markdown document, and allows the Foam VSCode extension to suggest files as you type. Below you can read about how to change their presentation.
 
-[[ginseng|You can alias a link like this]] if you don't want to keep the title. Heads up— this link goes to an article about ginseng.
+[[chinese-ginseng-chicken-tonic-soup|You can alias a link like this]] if you don't want to keep the title. Heads up— this link points to a recipe for Chinese ginseng chicken Soup.
 
 
-[[syntax#Wikilink Embeds|This wikilink is aliased with this text, and it points to a header further down on this very page]] Under that header you will find a different sort of wikilink— an embed. The content of another note is embedded on a page. You can also point to a particular header within another note.[[drink-recipes#Orange Milk|This link]] points to a recipe for orange milk. 
+[[syntax#Wikilink Embeds|This wikilink]] points to a header further down on this page, by using a `#`. Under that header you will find a different sort of wikilink— an embed. The content of another note is embedded within the current note. You can also point to a particular header within another note.  
 
-Check out the backlinks section at the bottom of [[business-virtue|this link's]] target note. You'll find that this very article is automatically added. Backlinks are automatic, and display all the notes with internal links pointing to them.
+Check out the backlinks section at the bottom of any post, and you'll find a list of every post that links back to it. Backlinks are automatically generated, and display all posts with links pointing to them.
 
 ## Wikilink Embeds
 
 The below text is embedded, using the same wikilink syntax as normal, but with an `!` prepended. The full text of the linked note will be included. For example, here is an embedded note about the domestic address system in Abu Dhabi:
 
-![[abu-dhabi-postal]]
+![[embedded-note]]
 
-## Hyperlinks
+## External Hyperlinks
 
 Hyperlinks to external sites are not the same as wikilinks. A wikilink is a simple way to hyperlink to other posts on your Exocore without using the full processed URL as it is rendered online. A wikilink works locally in VSCode, allowing you to navigate between posts, and is transformed at render time to a web hyperlink, so that it always points to the correct page.
 
@@ -63,7 +62,7 @@ To create a hyperlink, use single normal parentheses around the URL you want to 
 
 You can alias a hyperlink by changing the text in the square brackets, like this:
 
-[Here's some more information about Hyperlinks.](https://en.wikipedia.org/wiki/Hyperlink)
+[Here's some information about Hyperlinks.](https://en.wikipedia.org/wiki/Hyperlink)
 
 ## Applying classes to a paragraph or image
 
@@ -86,7 +85,7 @@ Kramdown, the Markdown parser used by this implementation of the Exocore, has th
 
 - `.shadow` - *applies a black blurred drop shadow*
   
-- `.glow` - *applies a white blurred drop shadow (produces a glowing effect*
+- `.glow` - *applies a white blurred drop shadow (produces a glowing effect)*
 
 - `.flip` - *flips the image (or text) horizontally*
   
@@ -106,19 +105,15 @@ For more complex data representation, [Graphviz](https://graphviz.org/) can be u
 
 Here's a simple footnote with no linebreaks in it.[^1] Each footnote is an anchor link to the bottom of the page, with a return link attached. Notice the sidenote in the right margin, identical to the footnote.
 
-Right now, all footnotes are also rendered as sidenotes. Perhaps in future these features will become separate, or perhaps they are best left united. A footnote forms a commentary or citation best kept separate from the main text, and a sidenote is an easy way for a reader to access such commentary without breaking ergonomy by jumping up and down the page, while still keeping a united list of all commentary at the bottom of the page. Therefore, their purposes overlap substantially and their marriage seems right.
+All footnotes are also rendered as sidenotes. A footnote forms a commentary or citation best kept separate from the main text, and a sidenote is an easy way for a reader to access such commentary without breaking ergonomy by jumping up and down the page.
 
-If you want to add multi-paragraph footnotes, indent your second paragraph, like this.[^2]
+If you want to add multi-paragraph footnotes, indent your second paragraph, like this (see footnote at bottom).[^2]
 
 You can put a footnote's markdown reference immediately under a paragraph, like this[^3], or clump them at the end. Either way, they will appear at the bottom in your rendered content.
 
 [^3]: This footnote appears immediately underneath it's referring paragraph in this document's original markdown, but on the rendered website it shows at the bottom. 
 
 Footnotes automatically form a numbered list, and can also be mapped by name, like this[^named-footnote]
-
-## Sidenotes
-
-
 
 ## Inserting images
 
@@ -132,7 +127,7 @@ However, **don't bother remembering this syntax.** the easiest way to insert an 
 You can insert alt text and a caption like this:
 ```
 ![This is alt text](/attachments/mouse.jpg)
-*Insert a caption by placing italicised textimmediately underneath the image, with no empty line in between.*
+*Insert a caption by placing italicised text immediately underneath the image*
 ```
 The above snippet produces the below outcome:
 
@@ -164,12 +159,8 @@ Don't use whitespace in your filenames— instead, name-them-like-this. This way
 [syntax#Examples of Wikilinks:|wikilinks]: syntax "Exocore Syntax Examples"
 [syntax#Inserting images|images]: syntax "Exocore Syntax Examples"
 [exocore]: exocore "The Exocore Package"
-[business-virtue]: ../_journal/business-virtue "The American Samurai"
 [2022-02-04]: ../_daily/2022-02-04 "02-04-22"
-[ginseng|You can alias a link like this]: ginseng "Ginseng"
-[syntax#Wikilink Embeds|This wikilink is aliased with this text, and it points to a header further down on this very page]: syntax "Exocore Syntax Examples"
-[drink-recipes#Orange Milk|This link]: ../_journal/drink-recipes "Drink Recipes"
-[business-virtue|this link's]: ../_journal/business-virtue "The American Samurai"
-[abu-dhabi-postal]: ../_notes/abu-dhabi-postal "ce9297"
-[graphviz-test|here]: ../_journal/graphviz-test "Using Graphviz with the Exocore"
+[chinese-ginseng-chicken-tonic-soup|You can alias a link like this]: ../_journal/chinese-ginseng-chicken-tonic-soup "Ginseng Chicken Tonic Soup (Chinese Style)"
+[syntax#Wikilink Embeds|This wikilink]: syntax "Exocore Syntax Examples"
+[embedded-note]: ../_journal/embedded-note "An example of an embedded note"
 [//end]: # "Autogenerated link references"

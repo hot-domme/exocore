@@ -503,11 +503,7 @@ img+em {
 }
 
 .embed-title {
-    font-size: 1.5em;
-    text-decoration: underline;
-    margin-bottom: 1em;
-    text-align: center;
-    color: $color-embed-title;
+    display: none;
 }
 
 .embed-content {
