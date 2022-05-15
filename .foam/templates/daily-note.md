@@ -7,4 +7,4 @@ foam_template:
   name: Daily Note
 ---
 
-# ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}
+# ${CURRENT_YEAR}-${CURRENT_MONTH}-${DATE}
